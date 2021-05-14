@@ -1,0 +1,79 @@
+- name: CTO.ai automation platform
+  url: https://cto.ai
+  description: Serverless platform on top of K8s that is designed for fast moving development teams who want focus on delivering applications, not managing their delivery operations.
+  status: live
+  tags:
+    - Kubernetes
+    - Amazon Web Services
+    - golang
+    - NodeJS
+    - ReactJS
+  icon: website
+  image: images/cto-ai.png
+
+- name: Kubernetes Ops built with the CTO.ai automation platform
+  url: https://github.com/cto-ai?q=kubernetes
+  description: A collection of interactive CLI & Slack tools that automate the creation and destruction of EKS and GKE clusters and simplify managing operations inside existing clusters.
+  status: live
+  tags:
+    - Kubernetes
+    - EKS
+    - GKE
+    - Slack
+    - CLI
+    - NodeJS
+    - Terraform
+  icon: github
+  image: images/kubernetes.png
+
+- name: Blog Q&A - How to Automate Your Workflow with DevOps "Ops Builder” Ruxandra
+  url: https://cto.ai/blog/how-to-automate-your-workflow-with-ruxandra/
+  description: Discussion on how to automate your workflows as a developer by running Ops or automations in your CLI and Slack using The Ops Platform with a focus on building Kubernetes related automations.
+  status: live
+  tags:
+    - DevOps
+    - Blog
+    - Interview
+    - Kubernetes
+    - Ops Platform
+    - CLI Tools
+    - Slack
+    - Automation
+  icon: website
+  image: images/cto-ai-blog.png
+
+- name: TELUS Home Shop
+  url: https://www.telus.com/en/shop/home/internet/plans
+  description: E-commerce experience for purchasing and updating Internet & other home services.
+  status: live
+  tags:
+    - JavaScript
+    - NodeJS
+    - ReactJS
+    - Openshift
+  icon: website
+  image: images/telus-home-shop.png
+
+- name: My TELUS
+  url: https://www.telus.com/my-telus
+  description: Self serve account management app for TELUS customers.
+  status: live
+  tags:
+    - JavaScript
+    - NodeJS
+    - ReactJS
+    - Openshift
+  icon: website
+  image: images/my-telus.png
+
+- name: Open Source Contributions
+  url: https://github.com/ruxandrafed
+  description: Contributed small fixes, features, or documentation to several popular open source projects.
+  status: live
+  tags:
+    - Kubernetes
+    - ESLint
+    - Octokit
+    - Editorconfig
+    - NodeJS
+    - Jest

@@ -1,0 +1,36 @@
+- profile:
+  initials: RF
+  name: Ruxandra Fediuc
+  profession: |
+    Senior Software Engineer &
+    Solutions Architect
+  image: images/profile.jpg
+  location: Vancouver, Canada
+  remote: true
+  company: CTO.ai
+  for_hire: true
+  focus: Cloud Computing, Kubernetes
+  about: |
+   Ruxandra is one of the familiar faces around the Vancouver community, acting as Director of Marketing for Women Who Code Vancouver since summer 2017, speaker & member of Women Techmakers Vancouver, speaker and champion of #MoveTheDial movement, and having previously mentored with both Lighthouse Labs and Ladies Learning Code.
+
+   Ruxandra has been working as a Software Engineer & Architect with TELUS Digital for 3+ years, having had the chance to contribute to or lead multiple projects in the My TELUS and Home Solutions team. As part of the Architecture Support Team, she helped ensure continuous alignment to overall technical vision between the different teams and departments in TELUS.
+
+   Following her interest in developer experience, Ruxandra joined CTO.ai in August 2019 as Solutions Architect, where she works with engineering teams and helps design infrastructure solutions and automate devops workflows, involving multiple cloud providers and technologies. An AWS Certified Solutions Architect since December 2019, Ruxandra is currently focused on enhancing her Kubernetes knowledge and experience and getting certified as CKA (Certified Kubernetes Administrator).
+
+   In her spare time, she is an avid foodie and instagrammer, and loves to read, play tennis, ski, or crochet cute animals.
+  skills:
+    - JavaScript
+    - Cloud Architecture
+    - Kubernetes
+    - Developer Experience
+    - CLI Tools
+    - CI/CD
+  highlights:
+    - AWS Certified Solutions Architect
+    - Certified Kubernetes Administrator
+    - Women Who Code Vancouver Chapter Director
+  budget:
+    currency: $
+    min: 5
+    max: 30
+    default: 10

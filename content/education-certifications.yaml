@@ -1,0 +1,38 @@
+- name: Certified Kubernetes Administrator
+  period: March 2021
+  institution: The Linux Foundation
+  url: https://www.credly.com/badges/410a5371-47bd-4f37-afc1-4258c80741e0/public_url
+  urlName: See credential on Credly
+  image: images/cka-certified-kubernetes-administrator.png
+
+- name: AWS Certified Solutions Architect – Associate
+  period: December 2019
+  institution: Amazon Web Services Training and Certification
+  url: https://www.credly.com/badges/640f3567-901a-4ac6-a935-403008036e93/public_url
+  urlName: See credential on Credly
+  image: images/aws-certified-solutions-architect-associate.png
+
+- name: Software Architecture Principles and Practices
+  period: December 2018
+  institution: Carnegie Mellon University - Software Engineering Institute
+  url: https://www.sei.cmu.edu/education-outreach/courses/course.cfm?courseCode=V07
+  urlName: See program
+  image: images/sei.png
+
+- name: MA in Organizational Management
+  period: 2008 - 2010
+  institution: |
+    Faculty of Economics & Business Administration
+    Alexandru Ioan Cuza University of Iasi, Romania
+  url: http://www.feaa.uaic.ro/programmes/master-programmes/organisational-management/?lang=en
+  urlName: See MA details
+  image: images/uaic.jpg
+
+- name: BA in Management
+  period: 2005 - 2008
+  institution: |
+    Faculty of Economics & Business Administration
+    Alexandru Ioan Cuza University of Iasi, Romania
+  url: http://www.feaa.uaic.ro/programmes/undergraduate-programmes/management/?lang=en
+  urlName: See BA details
+  image: images/uaic.jpg

@@ -1,0 +1,11 @@
+.stylistic-quote-mark {
+  font-size: 5rem;
+  right: 100%;
+  @apply mr-2 hidden font-semibold text-lead absolute top-0 leading-none;
+}
+  
+@screen sm {
+  .stylistic-quote-mark {
+    @apply block;
+  }
+}

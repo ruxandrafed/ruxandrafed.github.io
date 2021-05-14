@@ -1,0 +1,7 @@
+export { arrayOf, shape, string } from "prop-types"
+export { EducationCertificationsType } from "./education-certifications"
+export { ProfileType } from "./profile"
+export { ProjectType } from "./project"
+export { SocialType } from "./social"
+export { TestimonialType } from "./testimonial"
+export { WorkHistoryType } from "./work-history"
