@@ -23,6 +23,7 @@ module.exports = ({ reporter }, options) => {
       "images/cka-certified-kubernetes-administrator.png",
       "images/cto-ai.png",
       "images/cto-ai-blog.png",
+      "images/dailyhive.jpeg",
       "images/kubernetes.png",
       "images/my-telus.png",
       "images/profile.jpg",

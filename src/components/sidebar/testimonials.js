@@ -21,7 +21,7 @@ const Testimonials = ({testimonials}) => (
     )}
     </ul>
     <div className="font-text text-sm pb-12 leading-normal whitespace-pre-line">
-      For more details about my past experience, please connect with me on 
+      For more recommendations, please connect with me and checkout out my profile on 
         <a 
         className="underline hover:opacity-75 transition-opacity duration-150 m-1" 
         href="https://www.linkedin.com/in/ruxandrafediuc/"
@@ -29,15 +29,6 @@ const Testimonials = ({testimonials}) => (
         rel="noopener noreferrer"
         >
           LinkedIn
-        </a> 
-        or 
-        <a 
-          className="underline hover:opacity-75 transition-opacity duration-150 m-1" 
-          href="#contact"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          drop me a line
         </a>.
     </div>
   </>

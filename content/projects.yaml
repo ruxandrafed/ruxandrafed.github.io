@@ -42,6 +42,22 @@
   icon: website
   image: images/cto-ai-blog.png
 
+- name: DailyHive.com Infrastructure
+  url: https://dailyhive.com/
+  description: DailyHive.com migrated to modern infrastructure using Kubernetes & AWS, modern CI/CD, on demand deployments & infrastructure management using custom CLI tools built with the CTO.ai Ops Platform.
+  status: live
+  tags:
+    - Kubernetes
+    - DevOps
+    - CircleCI
+    - Grafana
+    - Prometheus
+    - MySQL
+    - AWS
+    - Cloudflare
+  icon: website
+  image: images/dailyhive.jpeg
+
 - name: TELUS Home Shop
   url: https://www.telus.com/en/shop/home/internet/plans
   description: E-commerce experience for purchasing and updating Internet & other home services.
