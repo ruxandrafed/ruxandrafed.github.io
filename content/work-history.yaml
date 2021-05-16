@@ -3,15 +3,15 @@
   period: August 2019 - present
   url: https://cto.ai
   description: |
-    Initially part of the Platform Solutions team, Ruxandra supported clients by identifying challenges and limitations in their infrastructure and DevOps processes, optimizing infrastructure solutions, building custom tools to streamline DevOps, and supporting the client engineering teams with adoption. 
+    Having joined as co-lead of the Platform Solutions team, Ruxandra supported clients by identifying challenges and limitations in their infrastructure and DevOps processes, optimizing infrastructure solutions, building custom tools to streamline DevOps, and supporting the client engineering teams with adoption. 
     
-    Since joining the Platform engineering team, reporting to the VP of Engineering, Ruxandra has been working directly on the Ops Platform (full-stack), as well as building and maintaining several DevOps oriented open source projects for the company.
+    Since joining the Platform Engineering team, reporting to the VP of Engineering, Ruxandra has been working directly on the Ops Platform (full-stack), as well as building and maintaining several DevOps oriented open source projects for the company.
 
-    • Designed and implemented custom infrastructure & automation solutions with AWS, GCP, CircleCI, BitBucket, etc.
+    • Designed and implemented custom infrastructure & automation solutions with AWS, GCP, CircleCI, BitBucket, Github, etc.
     • Active contributor to several company projects: API & Slack integrations (golang), front-end (ReactJS, NextJS), CLI (NodeJS), SDKs (Python, bash, Rust, NodeJS), etc.
-    • Consistently contributed to CTO.ai customer-facing documentation, from setup instructions to simple tutorials and SDK documentation
+    • Consistently contributed to CTO.ai customer-facing documentation, from setup instructions to simple tutorials and SDK documentation.
     • Built and maintained several open source Ops to showcase usage of the Ops Platform and help users automate infrastructure creation and management (using Kubernetes, Google Cloud Platform, Amazon Web Services, Terraform, etc.).
-    • Ran technical demos and supported sales team at Amazon ReInvent 2019.
+    • Designed, built and ran technical demos and supported sales team for key stakeholders and several industry events, including Amazon ReInvent 2019.
 
 - company: Women Who Code Vancouver
   position: Chapter Director (Volunteer)

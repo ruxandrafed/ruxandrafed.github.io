@@ -8,6 +8,8 @@
     - golang
     - NodeJS
     - ReactJS
+    - Gitlab
+    - Github
   icon: website
   image: images/cto-ai.png
 
