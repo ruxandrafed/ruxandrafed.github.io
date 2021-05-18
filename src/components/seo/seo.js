@@ -9,8 +9,11 @@ const Seo = props => {
       query {
         site {
           siteMetadata {
+            author
             description
+            keywords
             locale
+            siteUrl
             title
           }
         }
@@ -20,6 +23,7 @@ const Seo = props => {
 
   const {
     description = site.siteMetadata.description,
+    keywords = site.siteMetadata.keywords,
     meta = [],
     title = site.siteMetadata.title,
   } = props
@@ -34,6 +38,10 @@ const Seo = props => {
         {
           name: `description`,
           content: description,
+        },
+        {
+          name: 'keywords',
+          content: keywords,
         },
         {
           property: `og:title`,
