@@ -1,4 +1,5 @@
 import React from "react"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 import { arrayOf, shape, WorkHistoryType } from "../../types"
 import "./work-history.css"
 
@@ -20,14 +21,14 @@ const WorkHistory = ({ history }) => {
             <h4 className="subpixel-antialiased">{position}</h4> 
             {url ? (
               <h5 className="text-sm font-normal mb-1">
-                <a
+                <OutboundLink
                   href={url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:opacity-75 transition-opacity duration-150"
                 >
                   {company}
-                </a>
+                </OutboundLink>
               </h5>
             ) : (
               <h5 className="text-sm font-normal mb-1">{company}</h5>
@@ -44,14 +45,14 @@ const WorkHistory = ({ history }) => {
       </div>
       <div className="font-text text-sm pb-12 leading-normal whitespace-pre-line">
         For more details about my past experience, please connect with me on 
-          <a 
+          <OutboundLink 
           className="underline hover:opacity-75 transition-opacity duration-150 m-1" 
           href="https://www.linkedin.com/in/ruxandrafediuc/"
           target="_blank"
           rel="noopener noreferrer"
           >
             LinkedIn
-          </a> 
+          </OutboundLink> 
           or 
           <a 
             className="underline hover:opacity-75 transition-opacity duration-150 m-1" 

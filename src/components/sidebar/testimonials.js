@@ -1,4 +1,5 @@
 import React from 'react'
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 import { arrayOf, shape, TestimonialType } from "../../types"
 import "./testimonials.css"
 
@@ -22,14 +23,14 @@ const Testimonials = ({testimonials}) => (
     </ul>
     <div className="font-text text-sm pb-12 leading-normal whitespace-pre-line">
       For more recommendations, please connect with me and checkout out my profile on 
-        <a 
+        <OutboundLink 
         className="underline hover:opacity-75 transition-opacity duration-150 m-1" 
         href="https://www.linkedin.com/in/ruxandrafediuc/"
         target="_blank"
         rel="noopener noreferrer"
         >
           LinkedIn
-        </a>.
+        </OutboundLink>.
     </div>
   </>
 )
@@ -48,14 +49,14 @@ const Testimonial = ({ avatarAlt, avatarUrl, company, linkUrl, name, quote }) =>
       />
       <div className="flex flex-col items-start">
        <span className="mb-1 text-sm italic font-bold">
-        <a
+        <OutboundLink
           href={linkUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm"
         >
           {name}
-        </a>
+        </OutboundLink>
        </span>
         {company}
       </div>

@@ -1,5 +1,6 @@
 import React from "react"
 import { GatsbyImage } from "gatsby-plugin-image"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 import { arrayOf, shape, EducationCertificationsType } from "../../types"
 
 const EducationCertificationsItem = props => {
@@ -11,14 +12,14 @@ const EducationCertificationsItem = props => {
         <p className="w-full whitespace-pre-line">{institution}</p>
         <p className="w-full py-4 whitespace-pre-line">{period}</p>
         {url && (
-          <a
+          <OutboundLink
             className="text-front underline break-all hover:opacity-75 transition-opacity duration-150"
             href={url}
             rel="noreferrer noopener"
             target="_blank"
           >
             {urlName}
-          </a>
+          </OutboundLink>
         )}
       </div>
       {image && (

@@ -1,4 +1,5 @@
 import React from "react"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 import SocialIcon from "./social-icon"
 import { SocialType, arrayOf, shape } from "../../types"
 
@@ -9,7 +10,7 @@ const SocialLinks = ({ social }) => {
         const colorsClass =
           i % 2 === 0 ? "bg-front text-back-light" : "bg-back-light text-front"
         return (
-          <a
+          <OutboundLink
             aria-label={name}
             className={`inline-flex w-12 h-12 justify-center items-center rounded-full -ml-3 ${colorsClass} hover:shadow-lg transition-shadow duration-150`}
             href={url}
@@ -18,7 +19,7 @@ const SocialLinks = ({ social }) => {
             target="_blank"
           >
             <SocialIcon name={name} className="w-6 h-6" />
-          </a>
+          </OutboundLink>
         )
       })}
     </div>

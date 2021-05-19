@@ -1,4 +1,5 @@
 import { GatsbyImage } from "gatsby-plugin-image"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 import React from "react"
 import { ProjectType } from "../../types"
 import ProjectIcon from "./project-icon"
@@ -17,14 +18,14 @@ const Project = props => {
       <div className="lg:flex-1">
         <h4 className="font-bold">{name}</h4>
         {url && (
-          <a
+          <OutboundLink
             className="text-front underline break-all hover:opacity-75 transition-opacity duration-150"
             href={url}
             rel="noreferrer noopener"
             target="_blank"
           >
             {url}
-          </a>
+          </OutboundLink>
         )}
         <p className="w-full py-4 whitespace-pre-line">{description}</p>
         <ul className="pr-2">
