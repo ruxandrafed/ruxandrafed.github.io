@@ -38,6 +38,18 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          `G-0F1Q8V2FGN`,
+        ],
+        pluginConfig: {
+          head: true,
+          respectDNT: true,
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Ruxandra Fediuc - Senior Software Engineer & Solutions Architect`,
