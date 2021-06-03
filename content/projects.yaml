@@ -1,4 +1,4 @@
-- name: CTO.ai automation platform
+- name: CTO.ai Automation Platform
   url: https://cto.ai
   description: Serverless platform on top of K8s that is designed for fast moving development teams who want focus on delivering applications, not managing their delivery operations.
   status: live
@@ -13,7 +13,7 @@
   icon: website
   image: images/cto-ai.png
 
-- name: Kubernetes Ops built with the CTO.ai automation platform
+- name: Kubernetes Automations
   url: https://github.com/cto-ai?q=kubernetes
   description: A collection of interactive CLI & Slack tools that automate the creation and destruction of EKS and GKE clusters and simplify managing operations inside existing clusters.
   status: live
@@ -95,3 +95,14 @@
     - Editorconfig
     - NodeJS
     - Jest
+
+- name: Women Who Code Vancouver
+  url: https://www.womenwhocode.com/vancouver
+  description: Helped build a community of 2700+ members as Director (Volunteer), with 40+ local and online events to date.
+  status: live
+  tags:
+    - Women Who Code
+    - Community
+    - Meetup
+    - Events
+    - Diversity
