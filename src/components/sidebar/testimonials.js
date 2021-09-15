@@ -42,11 +42,6 @@ const Testimonial = ({ avatarAlt, avatarUrl, company, linkUrl, name, quote }) =>
     </span>
    <p className="mb-4">{quote}</p>
     <cite className="flex items-center">
-      <img
-        alt={avatarAlt}
-        className="w-12 mr-4 rounded-full bg-neutral-500"
-        src={avatarUrl}
-      />
       <div className="flex flex-col items-start">
        <span className="mb-1 text-sm italic font-bold">
         <OutboundLink
