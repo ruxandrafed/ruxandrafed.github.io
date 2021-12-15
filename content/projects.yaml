@@ -1,3 +1,17 @@
+- name: "#paid - Creator Marketing Platform"
+  url: https://hashtagpaid.com
+  description: Creator marketing platform
+  status: live
+  tags:
+    - Google Cloud Platform
+    - Terraform
+    - Github Actions
+    - NodeJS
+    - ReactJS
+    - Ruby on Rails
+  icon: website
+  image: images/hashtagpaid.png
+
 - name: CTO.ai Automation Platform
   url: https://cto.ai
   description: Serverless platform on top of K8s that is designed for fast moving development teams who want focus on delivering applications, not managing their delivery operations.
