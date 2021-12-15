@@ -1,10 +1,16 @@
+- company: Hashtag Paid Inc.
+  position: Senior Software Engineer
+  period: September 2021 - present
+  url: https://hashtagpaid.com
+  description: Helping build the platform of record that powers content creation and distribution for brands globally.
+
 - company: CTO.ai
   position: Senior Software Engineer // Solutions Architect
   period: August 2019 - present
   url: https://cto.ai
   description: |
-    As co-lead of the Platform Solutions team, reporting to the Director of Platform Solutions, Ruxandra supported clients by identifying challenges and limitations in their infrastructure and DevOps processes, optimizing infrastructure solutions, building custom tools to streamline DevOps, and supporting the client's engineering teams with adoption. 
-    
+    As co-lead of the Platform Solutions team, reporting to the Director of Platform Solutions, Ruxandra supported clients by identifying challenges and limitations in their infrastructure and DevOps processes, optimizing infrastructure solutions, building custom tools to streamline DevOps, and supporting the client's engineering teams with adoption.
+
     Since joining the Platform Engineering team, reporting to the VP of Engineering, Ruxandra has been contributing directly to the various applications powering the Ops Platform (full-stack).
 
     ► Designed and implemented open source, as well as custom infrastructure and automation solutions (using Kubernetes, Google Cloud Platform, Amazon Web Services, Terraform, Github Actions, CircleCI, etc.).
