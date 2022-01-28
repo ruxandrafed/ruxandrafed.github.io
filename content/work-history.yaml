@@ -1,11 +1,11 @@
 - company: Hashtag Paid Inc.
-  position: Senior Software Engineer
+  position: Software Architect
   period: September 2021 - present
   url: https://hashtagpaid.com
   description: Helping build the platform of record that powers content creation and distribution for brands globally.
 
 - company: CTO.ai
-  position: Senior Software Engineer // Solutions Architect
+  position: Solutions Architect
   period: August 2019 - present
   url: https://cto.ai
   description: |
@@ -41,7 +41,7 @@
     TELUS Digital is the team leading the digital evolution at TELUS, Canada's fastest-growing national telecommunications company.
 
 - company: Telus Digital - My TELUS
-  position: Senior Software Engineer // Tech Lead 
+  position: Senior Software Engineer // Tech Lead
   period: July 2017 - July 2018
   url: https://www.telus.com/en/digital
   description: |
@@ -67,7 +67,7 @@
     ► Core contributor and maintainer of main internal Customer API serving a large number of applications.
 
     ► 1st place in TELUS Artificial Intelligence Hackathon (2017) with a React Native app using AI (automated license plate recognition, sentiment analysis, etc.) to help improve bike lane infrastructure, safety and parking enforcement.
-    
+
     ► 2nd place in TELUS Digital Website Performance Hackathon (2016).
 
 - company: Lighthouse Labs
