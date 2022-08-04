@@ -7,6 +7,15 @@
 #   my-job:
 #     runs-on: ubuntu-latest
 #     steps:
+#       - name: step-0
+#         id: diff
+#         run: |
+#           echo "base sha ${{ github.event.pull_request.base.sha }}"
+#           echo "head sha ${{ github.event.pull_request.head.sha }}"
+#           git fetch origin main
+#           git diff origin/main..HEAD > mydiff
+#           echo "mydiff = "
+#           cat mydiff
 #       - name: step-1
 #         id: xyz
 #         run: echo "::set-output name=ip-address::$(curl -s ifconfig.me)"
