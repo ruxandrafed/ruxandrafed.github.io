@@ -23,31 +23,17 @@ jobs:
         run: |
           git fetch --no-tags --progress --no-recurse-submodules --depth=1 origin ${{ github.event.pull_request.base.sha }}
           git fetch --no-tags --progress --no-recurse-submodules --depth=1 origin ${{ github.event.pull_request.head.sha }}
-          echo "::set-output name=ip-address::$(curl -s ifconfig.me)"
-          echo "::set-output name=test::hello"
           echo "::set-output name=all::$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | xargs)"
           echo "::set-output name=tf::$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | grep .tf | xargs)"
       - name: output
         run: |
-          echo "${{ steps.changes.outputs.ip-address }}"
-          echo "${{ steps.changes.outputs.test }}"
           echo "${{ steps.changes.outputs.all }}"
           echo "${{ steps.changes.outputs.tf }}"
-  # test:
-  #   runs-on: ubuntu-latest
-  #   needs: changedfiles
-  #   steps:
-  #     - name: echo changed files
-  #       run: |
-  #         echo ${{needs.changedfiles.outputs.test}}
-  #         echo ${{needs.changedfiles.outputs.all}}
-  #         echo ${{needs.changedfiles.outputs.tf}}
-  #         echo ${{needs.changedfiles.outputs.output1}}
-  # lint:
-  #   runs-on: ubuntu-latest
-  #   needs: changedfiles
-  #   # only run there are changed files
-  #   if: ${{needs.changedfiles.outputs.tf}}
-  #   steps:
-  #     - name: echo changed files
-  #       run: echo ${{needs.changedfiles.outputs.tf}}
+  lint:
+    runs-on: ubuntu-latest
+    needs: changedfiles
+    # only run there are changed files
+    if: ${{needs.changedfiles.outputs.tf}}
+    steps:
+      - name: echo changed files
+        run: echo ${{needs.changedfiles.outputs.tf}}
