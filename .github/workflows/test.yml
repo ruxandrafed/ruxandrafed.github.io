@@ -21,6 +21,7 @@ jobs:
         id: changes
         # Set outputs using the command.
         run: |
+          git fetch -c protocol.version=2 fetch --no-tags --progress --no-recurse-submodules --depth=1 origin ${{ github.event.pull_request.base.sha }}
           echo "::set-output name=ip-address::$(curl -s ifconfig.me)"
           echo "::set-output name=test::hello"
           echo "::set-output name=all::$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | xargs)"
