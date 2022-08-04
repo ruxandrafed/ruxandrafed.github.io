@@ -1,9 +1,6 @@
 name: github pages
 
-on:
-  push:
-    branches:
-      - test
+on: pull_request
 
 jobs:
   changedfiles:
@@ -16,6 +13,10 @@ jobs:
         # Make sure we have some code to diff.
       - name: Checkout repository
         uses: actions/checkout@v2
+      - name: Show GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
       - name: Get changed files
         id: changes
         # Set outputs using the command.
