@@ -20,6 +20,7 @@ jobs:
         id: changes
         # Set outputs using the command.
         run: |
+          echo "::set-output name=test::hello"
           echo "::set-output name=all::$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | xargs)"
           echo "::set-output name=tf::$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep .tf | xargs)"
   test:
@@ -28,8 +29,10 @@ jobs:
     steps:
       - name: echo changed files
         run: |
+          echo ${{needs.changedfiles.outputs.test}}
           echo ${{needs.changedfiles.outputs.all}}
-          echo ${{needs.changedfiles.outputs.tf}}}
+          echo ${{needs.changedfiles.outputs.tf}}
+          echo ${{needs.changedfiles.outputs.output1}}
   lint:
     runs-on: ubuntu-latest
     needs: changedfiles
