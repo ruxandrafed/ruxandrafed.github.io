@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     # Map a step output to a job output
     outputs:
-      all: ${{ steps.changes.outputs.all}}
+      all: ${{ steps.changes.outputs.all }}
       ts: ${{ steps.changes.outputs.tf }}
     steps:
         # Make sure we have some code to diff.
@@ -27,7 +27,9 @@ jobs:
     needs: changedfiles
     steps:
       - name: echo changed files
-        run: echo ${{needs.changedfiles.outputs.ts}}
+        run: |
+          echo ${{needs.changedfiles.outputs.all}}
+          echo ${{needs.changedfiles.outputs.tf}}}
   lint:
     runs-on: ubuntu-latest
     needs: changedfiles
@@ -35,4 +37,4 @@ jobs:
     if: ${{needs.changedfiles.outputs.tf}}
     steps:
       - name: echo changed files
-        run: echo ${{needs.changedfiles.outputs.ts}}
+        run: echo ${{needs.changedfiles.outputs.tf}}
