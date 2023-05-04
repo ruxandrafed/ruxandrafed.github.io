@@ -9,7 +9,7 @@
   remote: true
   company: CTO.ai
   for_hire: true
-  focus: Cloud Computing, Kubernetes
+  focus: Cloud Computing, JavaScript, Developer Experience, Kubernetes
   about: |
     Ruxandra is one of the familiar faces around the Vancouver community, as past Chapter Director for Women Who Code Vancouver, speaker & member of Women Techmakers Vancouver, speaker and champion of #MoveTheDial movement, and having previously mentored with Lighthouse Labs, Ladies Learning Code, and Re:Coded.
 
@@ -32,6 +32,7 @@
   highlights:
     - AWS Certified Solutions Architect
     - Certified Kubernetes Administrator
+    - Google Cloud Platform Architect
     - Startup & Corporate Experience
   budget:
     currency: $
