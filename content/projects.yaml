@@ -1,3 +1,16 @@
+- name: "Engingeering Productivity at #paid - Engineering Productivity Podcast"
+  url: https://open.spotify.com/episode/1U4Nf2PiDLC1pBDzoYwYTy
+  description: "Supporting the growth and productivity of the engineering team at #paid"
+  status: live
+  tags:
+    - Engineering Productivity
+    - Podcast
+    - Developer Experience
+    - Automation
+    - Engineering Standards
+  icon: website
+  image: images/podcast.png
+
 - name: "#paid - Creator Marketing Platform"
   url: https://hashtagpaid.com
   description: Creator marketing platform
