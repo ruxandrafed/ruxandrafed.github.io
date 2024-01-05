@@ -1,8 +1,23 @@
-- company: Hashtag Paid Inc.
+- company: #paid
   position: Software Architect
   period: September 2021 - present
   url: https://hashtagpaid.com
-  description: Helping build the platform of record that powers content creation and distribution for brands globally.
+  description: |
+    As one of the two Software Architects on the team, reporting directly to the CTO, Ruxandra is directly responsible for the architecture and technical direction of the platform, as well as for the technical leadership of the engineering team.
+
+    Since joining the team, Ruxandra has been owning several infrastructure and architecture initiatives, as well as actively contributing to the development of the platform.
+
+    ► Designed and helped implement a new, scalable, and highly available infrastructure for the future version of the platform, using Terraform, Google Cloud Platform, Cloudflare, etc.
+
+    ► Architected and helped implement a series of essential microservices, using NodeJS, FastifyJS, OpenAPI, etc. 
+
+    ► Supported the development of an internal design system, and helped implement a new, modern, and scalable front-end architecture, using ReactJS, NextJS, TailwindCSS, etc.
+
+    ► Led the implementation of a new CI/CD pipeline, using Github Actions, eliminating toil and helping the team ship faster (from 1-2 releases per week to 5+ releases per day).
+    
+    ► Supported the data warehousing and analytics initiatives, helping the team build a scalable data pipeline, using BigQuery, StitchData, etc.
+
+    #paid is a platform that connects brands with creators to produce custom content, amplify their message, and track their campaigns.
 
 - company: CTO.ai
   position: Solutions Architect
