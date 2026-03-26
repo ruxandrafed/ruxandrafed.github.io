@@ -5,7 +5,9 @@ module.exports = ({ actions }) => {
       company: String!
       period: String
       position: String
+      description: String
       url: String
+      volunteer: Boolean
     }
 
     type EducationCertificationsYaml implements Node {

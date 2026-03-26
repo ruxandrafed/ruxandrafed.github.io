@@ -1,19 +1,19 @@
 import React from "react"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { OutboundLink } from "gatsby-plugin-google-gtag"
-import { SiGoogle, SiLinuxfoundation, SiAmazonaws } from "react-icons/si"
+import { SiGoogle, SiLinuxfoundation, SiAmazon } from "react-icons/si"
 import { arrayOf, shape, EducationCertificationsType } from "../../types"
 
 const institutionIcon = institution => {
   const inst = (institution || "").toLowerCase()
   if (inst.includes("google")) {
-    return <SiGoogle style={{ color: "#4285F4", width: "1.5rem", height: "1.5rem" }} />
+    return <SiGoogle style={{ width: "1.5rem", height: "1.5rem" }} className="text-lead" />
   }
   if (inst.includes("linux")) {
     return <SiLinuxfoundation style={{ color: "#333", width: "1.5rem", height: "1.5rem" }} />
   }
   if (inst.includes("amazon") || inst.includes("aws")) {
-    return <SiAmazonaws style={{ color: "#FF9900", width: "1.5rem", height: "1.5rem" }} />
+    return <SiAmazon style={{ color: "#FF9900", width: "1.5rem", height: "1.5rem" }} />
   }
   return (
     <span className="font-header font-bold text-lead-text text-lg">

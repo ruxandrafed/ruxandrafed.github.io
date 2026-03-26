@@ -1,7 +1,6 @@
 import { useStaticQuery, graphql } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import { Helmet } from "react-helmet"
 
 const Seo = props => {
   const { site } = useStaticQuery(
@@ -29,46 +28,21 @@ const Seo = props => {
   } = props
 
   return (
-    <Helmet
-      htmlAttributes={{
-        lang: site.siteMetadata.locale,
-      }}
-      title={title}
-      meta={[
-        {
-          name: `description`,
-          content: description,
-        },
-        {
-          name: 'keywords',
-          content: keywords,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: description,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: description,
-        },
-      ].concat(meta)}
-    />
+    <>
+      <html lang={site.siteMetadata.locale} />
+      <title>{title}</title>
+      <meta name="description" content={description} />
+      <meta name="keywords" content={keywords} />
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
+      <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+      {meta.map((m, i) => (
+        <meta key={i} {...m} />
+      ))}
+    </>
   )
 }
 

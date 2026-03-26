@@ -58,7 +58,7 @@ body {
 
 .form-input:focus {
   @apply border-lead;
-  box-shadow: 0 0 0 3px rgba(39, 129, 237, 0.12);
+  box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.15);
 }
 
 /* Testimonial quote */

@@ -1,14 +1,24 @@
 import React from "react"
-import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 const Header = () => (
-  <header className="flex justify-end px-4 py-3 lg:px-8">
-    <OutboundLink
-      className="flex items-center gap-2 font-header font-semibold px-5 py-2.5 bg-lead rounded-lg text-lead-text text-sm hover:opacity-75 transition-opacity duration-150"
-      href="#contact"
-    >
-      Contact me
-    </OutboundLink>
+  <header
+    className="relative w-full overflow-hidden"
+    style={{ height: "160px" }}
+  >
+    <img
+      src="/images/banner.jpg"
+      alt=""
+      aria-hidden="true"
+      className="absolute inset-0 w-full h-full object-cover object-center"
+      style={{ opacity: 0.85 }}
+    />
+    <div
+      className="absolute inset-0"
+      style={{
+        background:
+          "linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.55) 100%)",
+      }}
+    />
   </header>
 )
 

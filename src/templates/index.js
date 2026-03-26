@@ -2,7 +2,6 @@ import { graphql } from "gatsby"
 import React from "react"
 import CustomFonts from "../components/custom-fonts/custom-fonts"
 import Footer from "../components/footer/footer"
-import Header from "../components/header/header"
 import MainContent from "../components/main-content/main-content"
 import Nav from "../components/nav/nav"
 import Seo from "../components/seo/seo"
@@ -15,14 +14,12 @@ const IndexPage = ({ data }) => {
 
   return (
     <div className="antialiased bg-back leading-normal font-text text-front">
-      <Seo />
-      <StructuredData profile={profile} social={social.nodes} />
-      <CustomFonts />
+      <div className="h-1 w-full rounded-b-full bg-lead" style={{ opacity: 0.7 }} />
 
       <Nav name={profile.name} />
 
       <div className="md:max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 flex flex-wrap pt-6 mb-8">
-        <Sidebar profile={profile} social={social.nodes} testimonials={testimonials.nodes} /> 
+        <Sidebar profile={profile} social={social.nodes} testimonials={testimonials.nodes} />
 
         <MainContent
           history={history.nodes}
@@ -43,6 +40,17 @@ const IndexPage = ({ data }) => {
 }
 
 export default IndexPage
+
+export const Head = ({ data }) => {
+  const { profile, social } = data
+  return (
+    <>
+      <Seo />
+      <StructuredData profile={profile} social={social.nodes} />
+      <CustomFonts />
+    </>
+  )
+}
 
 export const query = graphql`
   query {

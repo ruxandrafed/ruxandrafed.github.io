@@ -20,7 +20,7 @@ const WorkHistory = ({ history }) => {
         />
 
         <div className="space-y-0">
-          {history.map(({ company, period, position, description, url }, i) => (
+          {history.map(({ company, period, position, description, url, volunteer }, i) => (
             <div
               className="relative pl-10 pb-10"
               key={`${position}_${i}`}
@@ -39,9 +39,16 @@ const WorkHistory = ({ history }) => {
               <div className="bg-back-light border border-line rounded-xl p-5" style={{ boxShadow: "0 1px 4px rgba(0,0,0,0.05)" }}>
                 {/* Role + Period */}
                 <div className="flex flex-wrap items-start justify-between gap-2 mb-1.5">
-                  <h4 className="font-header font-bold text-sm text-front leading-tight">
-                    {position}
-                  </h4>
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <h4 className="font-header font-bold text-sm text-front leading-tight">
+                      {position}
+                    </h4>
+                    {volunteer && (
+                      <span className="font-mono text-xs px-2 py-0.5 rounded-full border border-lead text-lead flex-shrink-0" style={{ opacity: 0.75 }}>
+                        volunteer
+                      </span>
+                    )}
+                  </div>
                   {period && (
                     <span className="font-mono text-xs px-2 py-0.5 rounded border border-line bg-back flex-shrink-0" style={{ opacity: 0.55 }}>
                       {period}

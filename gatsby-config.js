@@ -25,7 +25,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-react-helmet`,
     `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -33,8 +32,7 @@ module.exports = {
         path: contentPath,
       },
     },
-    `gatsby-plugin-react-svg`,
-    `gatsby-plugin-image`,
+`gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

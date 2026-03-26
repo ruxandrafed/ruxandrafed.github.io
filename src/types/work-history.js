@@ -1,5 +1,5 @@
 import { graphql } from "gatsby"
-import { string } from "prop-types"
+import { bool, string } from "prop-types"
 
 export const WorkHistoryType = {
   company: string.isRequired,
@@ -7,6 +7,7 @@ export const WorkHistoryType = {
   position: string,
   description: string,
   url: string,
+  volunteer: bool,
 }
 
 export const query = graphql`
@@ -16,5 +17,6 @@ export const query = graphql`
     position
     description
     url
+    volunteer
   }
 `
