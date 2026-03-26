@@ -32,7 +32,7 @@ body {
 
 /* Section heading accent bar */
 .section-heading {
-  @apply mt-12 mb-6;
+  @apply mt-8 mb-4;
 }
 
 .section-heading h2 {

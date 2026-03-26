@@ -5,8 +5,9 @@ import ProfileImage from "./profile-image"
 import Testimonials from "./testimonials"
 import { arrayOf, shape, ProfileType, SocialType, TestimonialType } from "../../types"
 import SocialLinks from "../social-links/social-links"
+import ResumeDownloadButton from "../resume-pdf/resume-download-button"
 
-const Sidebar = ({ profile, social, testimonials }) => (
+const Sidebar = ({ profile, social, testimonials, history, educationCertifications }) => (
   <aside className="w-full lg:w-1/3 lg:border-r border-line lg:px-6 xl:px-12">
     <div className="flex flex-col">
 
@@ -33,6 +34,14 @@ const Sidebar = ({ profile, social, testimonials }) => (
           >
             <FaEnvelope className="w-4 h-4" />
           </a>
+        </div>
+        <div className="mt-3">
+          <ResumeDownloadButton
+            profile={profile}
+            history={history}
+            educationCertifications={educationCertifications}
+            social={social}
+          />
         </div>
       </div>
 

@@ -5,6 +5,8 @@
   "main": "index.js",
   "author": "Ruxandra Fediuc <ruxandra.fediuc@gmail.com>",
   "dependencies": {
+    "@fontsource/lato": "^5.2.7",
+    "@react-pdf/renderer": "^4.3.2",
     "autoprefixer": "^10.4.0",
     "color": "^4.0.0",
     "gatsby": "^5.0.0",
@@ -13,7 +15,7 @@
     "gatsby-plugin-manifest": "^5.0.0",
     "gatsby-plugin-offline": "^6.0.0",
     "gatsby-plugin-postcss": "^6.0.0",
-"gatsby-plugin-sharp": "^5.0.0",
+    "gatsby-plugin-sharp": "^5.0.0",
     "gatsby-source-filesystem": "^5.0.0",
     "gatsby-transformer-sharp": "^5.0.0",
     "gatsby-transformer-yaml": "^5.0.0",

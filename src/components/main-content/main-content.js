@@ -11,6 +11,8 @@ import WorkHistory from "../work-history/work-history"
 const MainContent = ({ formspreeEndpoint, history, projects, profile, educationCertifications, testimonials }) => {
   return (
     <main className="lg:w-2/3 lg:pl-8 xl:pl-12">
+      {profile.about && <About about={profile.about} />}
+
       {(profile.skills || profile.highlights) && (
         <div className="flex flex-wrap border-b border-line pb-4 mb-2">
           <div className="w-full md:w-3/5 md:pr-8">
@@ -21,8 +23,6 @@ const MainContent = ({ formspreeEndpoint, history, projects, profile, educationC
           </div>
         </div>
       )}
-
-      {profile.about && <About about={profile.about} />}
       <WorkHistory history={history} />
       <Projects projects={projects} />
       <EducationCertifications educationCertifications={educationCertifications} />
