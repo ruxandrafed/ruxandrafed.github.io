@@ -9,13 +9,20 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaProductHunt,
-  FaTwitter,
   FaYoutube,
   FaXing,
 } from "react-icons/fa"
 import { SocialType } from "../../types"
 
+const XIcon = props => (
+  <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.259 5.63 5.905-5.63zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+  </svg>
+)
+
 const SocialIcon = ({ name, ...params }) => {
+  if (name === "twitter") return <XIcon {...params} />
+
   const icons = {
     behance: FaBehance,
     dribbble: FaDribbble,
@@ -26,7 +33,6 @@ const SocialIcon = ({ name, ...params }) => {
     instagram: FaInstagram,
     linkedin: FaLinkedinIn,
     producthunt: FaProductHunt,
-    twitter: FaTwitter,
     youtube: FaYoutube,
     xing: FaXing,
   }

@@ -18,10 +18,13 @@
     I'm driven by curiosity and continuous growth, and I enjoy stepping outside my comfort zone to solve hard problems across cloud platforms, distributed systems, and AI. I care deeply about mentorship and community, having led Women Who Code Vancouver and supported engineers through multiple mentoring initiatives. I aim to combine strong technical execution with thoughtful leadership that helps both systems and people thrive.
   skills:
     - AI & Generative AI
-    - Cloud Architecture (GCP)
+    - Cloud Architecture
+    - Google Cloud Platform
     - Distributed Systems
+    - Data Ingestion & Pipelines
+    - Event-Driven Architecture
     - Platform Engineering
-    - JavaScript & JS Ecosystem
+    - JavaScript & Node.js
     - Kubernetes
   highlights:
     - Generative AI Leader (Google)

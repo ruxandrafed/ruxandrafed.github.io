@@ -16,6 +16,7 @@ module.exports = theme => {
       fontFamily: {
         header: ["Source Sans Pro", "sans-serif"],
         text: ["Roboto", "sans-serif"],
+        mono: ["ui-monospace", "SFMono-Regular", "Menlo", "Monaco", "Consolas", "monospace"],
       },
       extend: {
         colors: {

@@ -4,19 +4,13 @@ import { ProfileType } from "../../types"
 
 const Location = ({ location, remote }) => (
   <>
-    <div className="inline-flex items-center bg-front mt-6 w-auto">
-      <span className="text-lead border-r-2 border-back px-3">
-        <FaMapMarkerAlt className="h-4 w-4" />
-      </span>
-      <span className="text-back font-header font-bold py-1 px-3 text-lg">
+    <div className="inline-flex items-center gap-1.5 mt-1" style={{ opacity: 0.6 }}>
+      <FaMapMarkerAlt className="h-3 w-3 text-front flex-shrink-0" />
+      <span className="font-header text-sm text-front">
         {location}
+        {remote && <span className="ml-2 opacity-75">· Remote preferred</span>}
       </span>
     </div>
-    {remote && (
-      <div className="text-xs uppercase mt-2 font-semibold text-front font-header">
-        Remote preferred
-      </div>
-    )}
   </>
 )
 

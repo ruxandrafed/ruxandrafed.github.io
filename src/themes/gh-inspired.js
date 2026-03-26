@@ -8,6 +8,6 @@ module.exports = {
   'skill-2': '#fc8732',
   'skill-3': '#2ebc50',
   'skill-4': '#E69F56',
-  'skill-5': '#F1E05A',
+  'skill-5': '#A67C00',
   'skill-6': '#00ADD8',
 };

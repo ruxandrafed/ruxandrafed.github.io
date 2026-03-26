@@ -2,4 +2,5 @@
 public
 node_modules
 CLAUDE.md
+.claude
 .playwright-mcp

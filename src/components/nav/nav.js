@@ -6,7 +6,6 @@ const NAV_LINKS = [
   { label: "Showcase", href: "#showcase" },
   { label: "Education", href: "#education" },
   { label: "Recommendations", href: "#recommendations" },
-  { label: "Contact", href: "#contact" },
 ]
 
 const Nav = ({ name }) => {

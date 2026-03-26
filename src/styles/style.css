@@ -9,6 +9,11 @@ html {
   scroll-padding-top: 4.5rem;
 }
 
+body {
+  background-image: radial-gradient(circle, rgba(43, 49, 55, 0.07) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
 /* Sticky nav */
 .sticky-nav {
   @apply fixed top-0 left-0 right-0 z-50 bg-back border-b border-line;
@@ -25,7 +30,38 @@ html {
   pointer-events: auto;
 }
 
-/* Testimonial carousel */
+/* Section heading accent bar */
+.section-heading {
+  @apply mt-12 mb-6;
+}
+
+.section-heading h2 {
+  @apply font-header font-bold text-front text-xl tracking-wide;
+}
+
+.section-heading-bar {
+  @apply w-8 bg-lead mt-2 rounded-full;
+  height: 3px;
+}
+
+/* Card style */
+.content-card {
+  @apply rounded-xl bg-back-light border border-line mb-4 overflow-hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Form inputs */
+.form-input {
+  @apply w-full text-front px-4 py-3 font-header text-sm outline-none leading-normal border border-line rounded-lg bg-back-light mb-3;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-input:focus {
+  @apply border-lead;
+  box-shadow: 0 0 0 3px rgba(39, 129, 237, 0.12);
+}
+
+/* Testimonial quote */
 .testimonial-quote {
   max-height: 14rem;
   overflow-y: auto;

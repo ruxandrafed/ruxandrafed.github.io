@@ -5,11 +5,13 @@ import { ProfileType } from "../../types"
 const Footer = ({ name, showThemeLogo = true }) => (
   <footer className="bg-front mt-16 pt-8 pb-16">
     <div className="md:max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 flex items-center">
-      <div className="w-2/3 text-back-light font-header text-xs">
-        <b>
-          &copy; {new Date().getFullYear()} {name}.
-        </b>{" "}
-        All rights reserved.
+      <div className="text-back-light font-header text-xs flex flex-col gap-1">
+        <span>
+          <b>&copy; {new Date().getFullYear()} {name}.</b>
+        </span>
+        <span className="font-mono opacity-50">
+          // built with ☕ · curiosity · and a lot of kubectl
+        </span>
       </div>
       <div className="w-1/3 text-right">
         {showThemeLogo && (

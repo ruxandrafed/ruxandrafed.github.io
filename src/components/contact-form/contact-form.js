@@ -1,67 +1,64 @@
 import React from "react"
-import { ProfileType, string } from "../../types"
-import "./contact-form.css"
+import { string } from "../../types"
 
-const ContactForm = ({ formspreeEndpoint, budget }) => {
+const ContactForm = ({ formspreeEndpoint }) => {
   return (
     <>
-      <h5
-        className="font-header font-semibold text-front text-sm uppercase mt-12 mb-3"
-        id="contact"
-      >
-        Contact
-      </h5>
+      <div className="section-heading">
+        <h2
+          id="contact"
+          className="font-header font-bold text-front text-xl tracking-wide"
+        >
+          <span className="font-mono font-normal text-lead text-sm mr-1.5" style={{ opacity: 0.45 }}>//</span>Contact
+        </h2>
+        <div className="section-heading-bar" />
+      </div>
 
-      <form action={formspreeEndpoint} className="flex flex-wrap" method="post">
-        <div className="flex flex-wrap w-full">
-          <div className="w-full lg:w-1/2 py-px lg:px-px">
+      <form action={formspreeEndpoint} className="pb-12" method="post">
+        <div className="flex flex-wrap gap-3 mb-0">
+          <div className="w-full lg:flex-1">
             <input
               aria-label="Name"
               autoComplete="name"
               className="form-input"
               name="name"
-              placeholder="NAME"
+              placeholder="Your name"
               required
               type="text"
             />
           </div>
-          <div className="w-full lg:w-1/2 py-px lg:px-px">
+          <div className="w-full lg:flex-1">
             <input
               aria-label="E-mail"
               autoComplete="email"
               className="form-input"
               name="email"
-              placeholder="EMAIL ADDRESS"
+              placeholder="Email address"
               required
               type="email"
             />
           </div>
         </div>
-
-        <div className="w-full text-right py-px lg:p-px">
-          <textarea
-            aria-label="Message"
-            className="block form-input bg-back-light resize-none border-b-0 pb-4"
-            name="message"
-            placeholder="MESSAGE"
-            required
-            rows="6"
-          ></textarea>
-          <div className="bg-back-light">
-            <input
-              className="font-header inline-block font-semibold px-6 py-2 leading-tight cursor-pointer outline-none bg-front text-back-light uppercase mr-4 my-4 transition-opacity duration-150 hover:opacity-75"
-              type="submit"
-              value="Send"
-            />
-          </div>
-        </div>
+        <textarea
+          aria-label="Message"
+          className="form-input resize-none"
+          name="message"
+          placeholder="Your message"
+          required
+          rows="6"
+        />
+        <button
+          type="submit"
+          className="font-header font-semibold px-8 py-3 bg-lead text-lead-text rounded-lg hover:opacity-80 transition-opacity duration-150 text-sm"
+        >
+          Send message
+        </button>
       </form>
     </>
   )
 }
 
 ContactForm.propTypes = {
-  budget: ProfileType.budget,
   formspreeEndpoint: string.isRequired,
 }
 

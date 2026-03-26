@@ -3,10 +3,13 @@ import { ProfileType } from "../../types"
 
 const About = ({ about }) => (
   <>
-    <h5 id="about" className="font-header font-semibold text-front text-sm uppercase mb-3">
-      About
-    </h5>
-    <div className="font-text text-sm pb-12 leading-normal whitespace-pre-line">
+    <div className="section-heading">
+      <h2 id="about" className="font-header font-bold text-front text-xl tracking-wide">
+        <span className="font-mono font-normal text-lead text-sm mr-1.5" style={{ opacity: 0.45 }}>//</span>About
+      </h2>
+      <div className="section-heading-bar" />
+    </div>
+    <div className="font-text text-sm pb-10 leading-relaxed whitespace-pre-line text-front" style={{ opacity: 0.85 }}>
       {about}
     </div>
   </>

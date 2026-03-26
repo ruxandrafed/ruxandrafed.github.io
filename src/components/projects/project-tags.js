@@ -5,8 +5,9 @@ const ProjectTags = ({ tags }) => (
   <>
     {tags.map(tag => (
       <li
-        className="inline-block px-3 py-1 mr-1 mt-1 font-medium text-xs rounded-lg border border-back"
+        className="inline-block px-3 py-1 mr-1 mt-1 font-mono text-xs rounded-full border border-line text-front"
         key={tag}
+        style={{ opacity: 0.75 }}
       >
         {tag}
       </li>

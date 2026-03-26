@@ -4,9 +4,12 @@ import { arrayOf, shape, ProjectType } from "../../types"
 
 const Projects = ({ projects }) => (
   <>
-    <h5 id="showcase" className="font-header font-semibold text-front text-sm uppercase mb-3">
-      Showcase
-    </h5>
+    <div className="section-heading">
+      <h2 id="showcase" className="font-header font-bold text-front text-xl tracking-wide">
+        <span className="font-mono font-normal text-lead text-sm mr-1.5" style={{ opacity: 0.45 }}>//</span>Showcase
+      </h2>
+      <div className="section-heading-bar" />
+    </div>
     {projects.map((project, i) => (
       <Project key={`${project.name}_${i}`} {...project} />
     ))}

@@ -1,10 +1,16 @@
 - name: Generative AI Leader Certification
   period: November 2025
   institution: Google
+  url: https://www.credly.com/badges/34db0a04-2742-423d-b8c8-5b948574e3f3/public_url
+  urlName: See credential on Credly
+  image: images/google-gen-ai-leader.png
 
 - name: Professional Cloud Architect Certification
   period: October 2024
   institution: Google
+  url: https://www.credly.com/badges/6692ceb2-36ac-43fd-908c-73342e58566e/public_url
+  urlName: See credential on Credly
+  image: images/google-cloud-architect.png
 
 - name: Certified Kubernetes Administrator
   period: March 2021

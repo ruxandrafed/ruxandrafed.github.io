@@ -8,8 +8,13 @@ const ProfileImage = ({ image, name }) => (
       image={image.childImageSharp.gatsbyImageData}
       alt={name}
       className="rounded-full relative z-10"
+      style={{ width: "80px", height: "80px" }}
+      imgStyle={{ objectFit: "cover" }}
     />
-    <div className="absolute inset-0 rounded-full bg-lead z-0 transform translate-x-12"></div>
+    <div
+      className="absolute rounded-full bg-lead z-0"
+      style={{ inset: 0, transform: "translateX(12px)" }}
+    />
   </div>
 )
 
