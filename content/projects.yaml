@@ -1,3 +1,32 @@
+- name: "Viral Nation Secure"
+  url: https://www.viralnation.com/solution/secure
+  description: AI-powered brand safety platform — designed and built the distributed ingestion pipelines and content analysis infrastructure leveraging Gemini for GARM safety classification, topic categorization, and brand/logo detection.
+  status: live
+  tags:
+    - Google Cloud Platform
+    - Gemini
+    - AI
+    - Distributed Systems
+    - OpenTofu
+    - NodeJS
+    - Event-Driven Architecture
+  icon: website
+  image: images/viralnation-secure.png
+
+- name: "Building with Gemini from Day One — Google Cloud Case Study"
+  url: https://cloud.google.com/customers/viralnation
+  description: Worked closely with Google Cloud from the earliest releases of their Gemini models, APIs, and SDKs to architect, build, and continuously evolve Viral Nation's AI content analysis pipeline. The result — 92% reduction in infrastructure costs, 86k creator channels monitored daily, and 15 years of social content analyzed in 48 hours.
+  status: live
+  tags:
+    - Google Cloud Platform
+    - Gemini
+    - Vertex AI
+    - AI
+    - LLM
+    - Case Study
+  icon: website
+  image: images/google-gemini.png
+
 - name: "Engingeering Productivity at #paid"
   url: https://open.spotify.com/episode/1U4Nf2PiDLC1pBDzoYwYTy
   description: "Supporting the growth and productivity of the engineering team at #paid"

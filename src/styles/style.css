@@ -3,3 +3,40 @@
 @tailwind components;
 
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4.5rem;
+}
+
+/* Sticky nav */
+.sticky-nav {
+  @apply fixed top-0 left-0 right-0 z-50 bg-back border-b border-line;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.07);
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+
+.sticky-nav--visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* Testimonial carousel */
+.testimonial-quote {
+  max-height: 14rem;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.testimonial-quote::-webkit-scrollbar {
+  width: 3px;
+}
+
+.testimonial-quote::-webkit-scrollbar-thumb {
+  @apply bg-line;
+  border-radius: 3px;
+}

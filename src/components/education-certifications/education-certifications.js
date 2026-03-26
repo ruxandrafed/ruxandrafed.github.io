@@ -35,7 +35,7 @@ EducationCertificationsItem.propTypes = EducationCertificationsType
 
 const EducationCertifications = ({ educationCertifications }) => (
   <>
-    <h5 className="font-header font-semibold text-front text-sm uppercase mb-3">
+    <h5 id="education" className="font-header font-semibold text-front text-sm uppercase mb-3">
       Education & Certifications
     </h5>
     {educationCertifications.map((educationCertificationsItem, i) => (

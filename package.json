@@ -44,14 +44,14 @@
     "website"
   ],
   "engines": {
-    "node": ">=12.0.0"
+    "node": ">=20.0.0"
   },
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "buildprod": "gatsby clean && gatsby build",
-    "develop": "gatsby develop",
-    "deploy": "gatsby clean && gatsby build && gh-pages -d public",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider gatsby build",
+    "buildprod": "gatsby clean && NODE_OPTIONS=--openssl-legacy-provider gatsby build",
+    "develop": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
+    "deploy": "gatsby clean && NODE_OPTIONS=--openssl-legacy-provider gatsby build && gh-pages -d public",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "serve": "gatsby serve",
     "clean": "gatsby clean"

@@ -1,57 +1,86 @@
+- company: Viral Nation
+  position: Principal Engineer & Platform Architect
+  period: February 2024 - present
+  url: https://www.viralnation.com
+  description: |
+    Lead technical architecture and platform engineering for Viral Nation's AI-powered creator intelligence platform, including distributed ingestion pipelines, large-scale AI content analysis, and cloud infrastructure.
+
+    Own the architecture, infrastructure, and technical direction of the company's 2.0 platform. Serve as the hands-on technical leader across the engineering team, setting architectural direction, building critical platform components, reviewing system designs and implementations, and guiding engineers through complex distributed systems challenges.
+
+    During a recent leadership transition, stepped in to maintain technical leadership across the organization, reporting directly to the CEO and working closely with executive leadership to guide platform strategy and architecture decisions.
+
+    ► Lead the architecture and development of the next-generation 2.0 platform, enabling significantly higher ingestion volumes and improved data accuracy while reducing infrastructure costs to less than 10% of the legacy system.
+
+    ► Architect and evolve the AI-powered content analysis pipeline leveraging Gemini for safety and semantic analysis of social media content.
+
+    ► Design, build, and operate cloud infrastructure on Google Cloud Platform using Infrastructure as Code with OpenTofu, implementing monitoring, alerting, and full observability.
+
+    ► Serve as the organization's primary cloud architecture authority, guiding engineering teams on distributed systems, reliability, and cost-efficient cloud design.
+
+    ► Drive architecture improvements across APIs & web applications, improving performance, developer velocity, as well as system stability and data integrity.
+
+    ► Implement resilient integrations and dashboards exposing ingestion and AI pipeline health metrics.
+
+    Viral Nation develops a social-first creator intelligence platform enabling brands to evaluate creators through AI-driven content analysis, including GARM safety classification, topic categorization, and brand/logo detection.
+
 - company: HashtagPaid
-  position: Software Architect
-  period: September 2021 - present
+  position: Staff Software Engineer & Architect
+  period: September 2021 - February 2024
   url: https://hashtagpaid.com
   description: |
-    As one of the two Software Architects on the team, reporting directly to the CTO, Ruxandra is directly responsible for the architecture and technical direction of the platform, as well as for the technical leadership of the engineering team.
+    Lead technical architecture and platform engineering as one of two Software Architects, reporting directly to the CTO. Drive the overall architectural vision and technical direction of the platform while providing hands-on technical leadership across the engineering team.
 
-    Since joining the team, Ruxandra has been owning several infrastructure and architecture initiatives, as well as actively contributing to the development of the platform.
+    Own and execute key infrastructure and architecture initiatives, while actively contributing to the development of core platform components. Guide system design, implementation, and evolution across distributed systems, ensuring scalability, reliability, and efficiency.
 
-    ► Designed and helped implement a new, scalable, and highly available infrastructure for the future version of the platform, using Terraform, Google Cloud Platform, Cloudflare, etc.
+    Act as a senior technical leader within the organization, partnering closely with leadership and engineering to align architecture decisions with business and product goals, while supporting and mentoring engineers through complex technical challenges.
 
-    ► Architected and helped implement a series of essential microservices, using NodeJS, FastifyJS, OpenAPI, etc.
+    ► Design and help implement a new, scalable, and highly available infrastructure for the future version of the platform, using Terraform, Google Cloud Platform, Cloudflare, etc.
 
-    ► Supported the development of an internal design system, and helped implement a new, modern, and scalable front-end architecture, using ReactJS, NextJS, TailwindCSS, etc.
+    ► Architect and implement multiple essential microservices, using NodeJS, FastifyJS, OpenAPI, etc.
 
-    ► Led the implementation of a new CI/CD pipeline, using Github Actions, eliminating toil and helping the team ship faster (from 1-2 releases per week to 5+ releases per day).
+    ► Support the development of an internal design system, as well as a new, modern, and scalable front-end architecture, using ReactJS, NextJS, TailwindCSS, etc.
 
-    ► Supported the data warehousing and analytics initiatives, helping the team build a scalable data pipeline, using BigQuery, StitchData, etc.
+    ► Lead the implementation of a new CI/CD pipeline, using Github Actions, eliminating toil and helping the team ship faster (from 1-2 releases per week to 5+ releases per day).
+
+    ► Support the data warehousing and analytics initiatives, helping the team build a scalable data pipeline, using BigQuery, StitchData, etc.
 
     #paid is a platform that connects brands with creators to produce custom content, amplify their message, and track their campaigns.
 
 - company: CTO.ai
-  position: Solutions Architect
-  period: August 2019 - present
+  position: Solutions Architect / Platform Engineer
+  period: August 2019 - August 2021
   url: https://cto.ai
   description: |
-    As co-lead of the Platform Solutions team, reporting to the Director of Platform Solutions, Ruxandra supported clients by identifying challenges and limitations in their infrastructure and DevOps processes, optimizing infrastructure solutions, building custom tools to streamline DevOps, and supporting the client's engineering teams with adoption.
+    Joined as co-lead of the Platform Solutions team, partnering with the Director of Platform Solutions to support clients in evaluating and evolving their infrastructure and DevOps practices. Identified system limitations and operational bottlenecks, designed optimized cloud and DevOps solutions, and built custom tooling to streamline workflows and improve developer experience. Worked closely with client engineering teams to drive adoption and ensure successful implementation.
 
-    Since joining the Platform Engineering team, reporting to the VP of Engineering, Ruxandra has been contributing directly to the various applications powering the Ops Platform (full-stack).
+    Transitioned to the Platform Engineering team, reporting to the VP of Engineering, to contribute directly to the company's Ops Platform as a full-stack engineer. Led development of core platform capabilities while also building and maintaining DevOps-focused open source projects, improving internal tooling and enabling more scalable and efficient engineering operations.
 
-    ► Designed and implemented open source, as well as custom infrastructure and automation solutions (using Kubernetes, Google Cloud Platform, Amazon Web Services, Terraform, Github Actions, CircleCI, etc.).
+    ► Design and implement open source, as well as custom infrastructure & automation solutions (using Kubernetes, Google Cloud Platform, Amazon Web Services, Terraform, Github Actions, etc.).
 
-    ► Designed, built and ran technical demos for key stakeholders and several industry events, including Amazon ReInvent 2019.
+    ► Active contributor to several company projects: API & Slack integrations (golang), front-end (ReactJS, NextJS), CLI (NodeJS), SDKs (Python, bash, Rust, NodeJS), etc.
 
-    ► Delivered multiple features and bug fixes to key internal applications: API & Slack integrations (golang), front-end (ReactJS, NextJS), CLI tools (NodeJS), SDKs (Python, bash, Rust, NodeJS), etc.
+    ► Main contributor to CTO.ai customer-facing documentation, from setup instructions to simple tutorials and SDK documentation.
 
-    ► Major contributor to customer-facing documentation (setup, tutorials, SDK documentation, blog reviews and contributions).
+    ► Design, build and run technical demos for key stakeholders and several industry events, including Amazon ReInvent.
 
     CTO.ai is a platform for fast moving development teams who want to build, share, and run developer workflows in CLI and Slack.
 
 - company: Telus Digital - Platform Architecture
-  position: Senior Software Engineer // Software Architect
+  position: Platform Engineer & Architect
   period: July 2018 - August 2019
   url: https://www.telus.com/en/digital
   description: |
-    As part of the Platform Architecture Team, reporting to the Principal Architect and working closely with him to help ensure continuous alignment to overall technical vision between the different teams and departments in TELUS, Ruxandra developed and maintained the Digital Platform, led Architecture Reviews, and provided mentorship and feedback to developers across the department.
+    Contributed as part of the Platform Architecture team, partnering closely with the Principal Architect to ensure alignment to the broader technical vision across teams and departments within TELUS. Helped drive consistency in architecture and system design across a large, distributed organization.
 
-    ► Worked closely with the team to maintain and evolve internal starter kits, core libraries, and CLI tools (using: NodeJS, ExpressJS, ReactJS, Redux, Contentful, Saucelabs, Invision, CircleCI, RedHat Openshift, Jenkins, etc.).
+    Led architecture reviews and provided hands-on guidance to engineering teams, offering mentorship and actionable feedback to improve system design, implementation quality, and adherence to platform standards. Developed and maintained core components of the Digital Platform, supporting scalable and consistent solutions across the organization while reinforcing best practices in architecture and engineering.
 
-    ► Led several explorations of technical tools (CI/CD, Github actions, automated version management & releases, etc.), planned adoption strategies, and paired with teams to help them adopt the new tools/standards across their projects.
+    ► Work closely with the team to maintain and evolve internal starter kits, core libraries, and CLI tools (using: NodeJS, ExpressJS, ReactJS, Redux, Contentful, Saucelabs, Invision, CircleCI, RedHat Openshift, Jenkins, etc.).
 
-    ► Maintained key org-wide technical documentation repositories and helped build a solid documentation practice.
+    ► Lead several explorations of technical tools (CI/CD, Github actions, automated version management & releases, etc.), plan adoption strategies, and pair with teams to help them adopt the new tools/standards across their projects.
 
-    ► Facilitated several internal processes and practices meant to encourage collaboration among our multiple teams, avoid duplication, reach consensus on technical decisions, and supported other TELUS teams in their exploration and adoption of the Digital Platform.
+    ► Maintain several key org-wide technical documentation repositories and help build a solid documentation and contribution practice within our internal community.
+
+    ► Facilitate several internal processes and practices meant to encourage collaboration among our multiple teams, avoid duplication, reach consensus on technical decisions, and support other TELUS teams in their exploration and adoption of the Digital Platform.
 
     TELUS Digital is the team leading the digital evolution at TELUS, Canada's fastest-growing national telecommunications company.
 
@@ -60,30 +89,36 @@
   period: July 2017 - July 2018
   url: https://www.telus.com/en/digital
   description: |
-    Reporting to the My TELUS Director, as Technology Lead of the My Telus Home Solutions team, Ruxandra led a team of 4 engineers in charge with maintaining and shipping NodeJS/ExpressJS APIs & ReactJS/Redux web applications for Internet, TV & Home Phone customers, as part of the My TELUS self serve account management platform.
+    Served as Technology Lead for the My TELUS Home Solutions team, reporting to the My TELUS Director. Led a team of four engineers responsible for delivering and maintaining customer-facing APIs and web applications supporting Internet, TV, and Home Phone services within the My TELUS self-serve platform.
 
-    ► Worked closely with the Product Owner, Designers, and external teams to help refine the technical requirements and KPIs for the team, and clarify the acceptance criteria for the features to be built.
+    Owned the technical direction and execution of Node.js/Express APIs and React/Redux applications, ensuring reliability, performance, and a seamless customer experience. Guided the team through design and implementation decisions, while driving delivery of new features and continuous improvements across the platform.
 
-    ► Mentored and organized the team, and ran Developer Roundtable meetings, facilitating collaboration and executing code reviews.
+    ► Work closely with Product Owner, Designers, and external teams to help refine the technical requirements and KPIs for the team, and clarify the acceptance criteria for the features to be built.
 
-    ► Collaborated closely with external teams to research and negotiate APIs design and interfaces, clarify interdependencies and impact to delivery timelines, identified common risks and opportunities to consolidate work, etc.
+    ► Help organize the development team, by running Developer Roundtable meetings, facilitating collaboration and executing code reviews. Mentor new team members.
 
-    ► Supported the team through pioneering the new org-wide technology stack and helped identify opportunities and gaps, as well as migrated existing work from a dated PHP monolith to a Javascript-centric stack focused on scalability, microservices, CI/CD.
+    ► Collaborate closely with external teams for researching and negotiating APIs design and interfaces, clarifying interdependencies and impact to feature delivery timelines, identifying common risks and opportunities to consolidate work, etc.
+
+    ► Support the team as we pioneered a new technology stack and identify opportunities and gaps, while migrating existing work from a dated PHP monolith to a Javascript-centric stack focused on scalability, microservices, continuous integration and delivery.
 
 - company: Telus Digital - My TELUS
   position: Software Engineer
   period: November 2015 - June 2017
   url: https://www.telus.com/en/digital
   description: |
-    Reporting to the My TELUS Director, Ruxandra was part of an Agile team building and maintaining My TELUS, a PHP/Codeigniter based suite of self-serve account management products for all of TELUS Customers (~2 Million users per month).
+    Contributed as part of an Agile team building and maintaining My TELUS, a suite of self-serve account management products used by approximately 2 million customers each month. Reported to the My TELUS Director and supported ongoing development and evolution of the platform.
 
-    ► Built a variety of new experiences for TELUS Home Solutions customers (2 factor authentication, assisted registration, appointment scheduling, etc.) and helped evolve core applications and backend APIs.
-
-    ► Core contributor and maintainer of main internal Customer API serving a large number of applications.
+    Worked on a PHP/CodeIgniter-based application stack, delivering features and improvements that enhanced performance, reliability, and user experience. Collaborated closely with cross-functional teams to support continuous delivery and maintain a high-quality, scalable product.
 
     ► 1st place in TELUS Artificial Intelligence Hackathon (2017) with a React Native app using AI (automated license plate recognition, sentiment analysis, etc.) to help improve bike lane infrastructure, safety and parking enforcement.
 
     ► 2nd place in TELUS Digital Website Performance Hackathon (2016).
+
+    ► Strengthened account management security (2-factor authentication), revamped assisted registration flow, built appointment rescheduling flow, etc.
+
+    ► Built a variety of new features and flows for TELUS Home Solutions customers and helped maintain and evolve core TELUS applications and backend APIs.
+
+    ► Core contributor and maintainer of main internal API serving a large number of applications.
 
 - company: Lighthouse Labs
   position: Mentor - Web Development Bootcamp
