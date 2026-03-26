@@ -55,9 +55,9 @@ const Nav = ({ name }) => {
             onClick={() => setMenuOpen(o => !o)}
             aria-label="Toggle menu"
           >
-            <span className="block w-5 h-0.5 bg-white" style={{ transition: "all 0.2s", transform: menuOpen ? "rotate(45deg) translateY(8px)" : "none" }} />
-            <span className="block w-5 h-0.5 bg-white" style={{ transition: "all 0.2s", opacity: menuOpen ? 0 : 1 }} />
-            <span className="block w-5 h-0.5 bg-white" style={{ transition: "all 0.2s", transform: menuOpen ? "rotate(-45deg) translateY(-8px)" : "none" }} />
+            <span className="block w-5 h-0.5 bg-front" style={{ transition: "all 0.2s", transform: menuOpen ? "rotate(45deg) translateY(8px)" : "none" }} />
+            <span className="block w-5 h-0.5 bg-front" style={{ transition: "all 0.2s", opacity: menuOpen ? 0 : 1 }} />
+            <span className="block w-5 h-0.5 bg-front" style={{ transition: "all 0.2s", transform: menuOpen ? "rotate(-45deg) translateY(-8px)" : "none" }} />
           </button>
         </div>
       </div>
