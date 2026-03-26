@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 
 // Lazy-loaded to avoid SSR issues with @react-pdf/renderer
-const ResumeDownloadButton = ({ profile, history, educationCertifications, social }) => {
+const ResumeDownloadButton = ({ profile, history, educationCertifications, social, testimonials }) => {
   const [PDFDownloadLink, setPDFDownloadLink] = useState(null)
   const [ResumePDF, setResumePDF] = useState(null)
 
@@ -35,6 +35,7 @@ const ResumeDownloadButton = ({ profile, history, educationCertifications, socia
           history={history}
           educationCertifications={educationCertifications}
           social={social}
+          testimonials={testimonials}
         />
       }
       fileName={`${profile.name.replace(/\s+/g, "_")}_Resume.pdf`}

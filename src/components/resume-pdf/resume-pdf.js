@@ -215,7 +215,7 @@ const parseDescription = description => {
   return { intro, bullets }
 }
 
-const ResumePDF = ({ profile, history, educationCertifications, social }) => {
+const ResumePDF = ({ profile, history, educationCertifications, social, testimonials }) => {
   const linkedIn = social?.find(s => s.name === "linkedin")?.url
   const github = social?.find(s => s.name === "github")?.url
 
@@ -277,7 +277,12 @@ const ResumePDF = ({ profile, history, educationCertifications, social }) => {
                 <View key={i} style={styles.workEntry} wrap={false}>
                   <View style={styles.workHeader}>
                     <View style={{ flexDirection: "row", flex: 1 }}>
-                      <Text style={styles.workRole}>{job.position}</Text>
+                      {job.volunteer && (
+                            <Text style={{ fontSize: 6.5, color: GREEN, borderWidth: 1, borderColor: GREEN, borderRadius: 4, paddingHorizontal: 4, paddingVertical: 1.5, marginRight: 6, alignSelf: "center" }}>
+                              volunteer
+                            </Text>
+                          )}
+                          <Text style={styles.workRole}>{job.position}</Text>
                     </View>
                     {job.period && (
                       <Text style={styles.workPeriod}>{job.period}</Text>
@@ -343,6 +348,33 @@ const ResumePDF = ({ profile, history, educationCertifications, social }) => {
                   )}
                 </View>
               ))}
+          </View>
+        )}
+        {/* Recommendations */}
+        {testimonials?.some(t => t.excerpt) && (
+          <View style={styles.section}>
+            <Text style={styles.sectionHeading}>Recommendations</Text>
+            {testimonials
+              .filter(t => t.excerpt)
+              .map((t, i) => (
+                <View key={i} wrap={false} style={{ marginBottom: 7, paddingLeft: 8, borderLeftWidth: 2, borderLeftColor: GREEN }}>
+                  <Text style={{ fontSize: 7.5, lineHeight: 1.5, color: DARK, fontStyle: "italic", marginBottom: 3 }}>
+                    "{t.excerpt}"
+                  </Text>
+                  <View style={{ flexDirection: "row", alignItems: "center", gap: 4 }}>
+                    <Link src={t.linkUrl} style={{ fontSize: 7, color: GREEN, fontWeight: 700, textDecoration: "none" }}>
+                      {t.name}
+                    </Link>
+                    <Text style={{ fontSize: 7, color: MUTED }}> · {t.company}</Text>
+                  </View>
+                </View>
+              ))}
+            <Link
+              src="https://www.linkedin.com/in/ruxandrafediuc/"
+              style={{ fontSize: 7, color: MUTED, textDecoration: "none", marginTop: 4 }}
+            >
+              For more recommendations, visit linkedin.com/in/ruxandrafediuc
+            </Link>
           </View>
         )}
       </Page>

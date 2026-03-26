@@ -41,6 +41,7 @@ const Sidebar = ({ profile, social, testimonials, history, educationCertificatio
             history={history}
             educationCertifications={educationCertifications}
             social={social}
+            testimonials={testimonials}
           />
         </div>
       </div>

@@ -8,6 +8,7 @@ export const TestimonialType = {
   linkUrl: string.isRequired,
   name: string.isRequired,
   quote: string.isRequired,
+  excerpt: string,
 }
 
 export const query = graphql`
@@ -18,5 +19,6 @@ export const query = graphql`
     linkUrl
     name
     quote
+    excerpt
   }
 `

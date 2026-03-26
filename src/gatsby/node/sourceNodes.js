@@ -38,6 +38,7 @@ module.exports = ({ actions }) => {
       linkUrl: String
       name: String!
       quote: String!
+      excerpt: String
     }
   `)
 }
