@@ -12,7 +12,7 @@ const Testimonial = ({ company, linkUrl, name, quote }) => {
     truncatable && !expanded ? quote.slice(0, QUOTE_LIMIT).trimEnd() + "…" : quote
 
   return (
-    <blockquote className="relative text-xs italic border-l-4 border-lead bg-lead bg-opacity-5 rounded-r-lg p-4 mb-3">
+    <blockquote className="relative text-xs border-l-4 border-lead bg-lead bg-opacity-5 rounded-r-lg p-4 mb-3">
       <p className="whitespace-pre-line text-front leading-relaxed mb-1 text-xs" style={{ opacity: 0.82, fontSize: "0.7rem" }}>
         {displayedQuote}
       </p>
