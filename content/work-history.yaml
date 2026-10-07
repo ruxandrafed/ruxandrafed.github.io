@@ -28,17 +28,17 @@
 
     During a recent leadership transition, stepped in to maintain technical leadership across the organization, reporting directly to the CEO and working closely with executive leadership to guide platform strategy and architecture decisions.
 
-    ► Lead the architecture and development of the next-generation 2.0 platform, enabling significantly higher ingestion volumes and improved data accuracy while reducing infrastructure costs to less than 10% of the legacy system.
+    ► Led the architecture and development of the next-generation 2.0 platform, enabling significantly higher ingestion volumes and improved data accuracy while reducing infrastructure costs to less than 10% of the legacy system.
 
-    ► Architect and evolve the AI-powered content analysis pipeline leveraging Gemini for safety and semantic analysis of social media content.
+    ► Architected and evolved the AI-powered content analysis pipeline leveraging Gemini for safety and semantic analysis of social media content.
 
-    ► Design, build, and operate cloud infrastructure on Google Cloud Platform using Infrastructure as Code with OpenTofu, implementing monitoring, alerting, and full observability.
+    ► Designed, built, and operated cloud infrastructure on Google Cloud Platform using Infrastructure as Code with OpenTofu, implementing monitoring, alerting, and full observability.
 
-    ► Serve as the organization's primary cloud architecture authority, guiding engineering teams on distributed systems, reliability, and cost-efficient cloud design.
+    ► Served as the organization's primary cloud architecture authority, guiding engineering teams on distributed systems, reliability, and cost-efficient cloud design.
 
-    ► Drive architecture improvements across APIs & web applications, improving performance, developer velocity, as well as system stability and data integrity.
+    ► Drove architecture improvements across APIs & web applications, improving performance, developer velocity, as well as system stability and data integrity.
 
-    ► Implement resilient integrations and dashboards exposing ingestion and AI pipeline health metrics.
+    ► Implemented resilient integrations and dashboards exposing ingestion and AI pipeline health metrics.
 
     Viral Nation develops a social-first creator intelligence platform enabling brands to evaluate creators through AI-driven content analysis, including GARM safety classification, topic categorization, and brand/logo detection.
 
@@ -49,17 +49,17 @@
   description: |
     Led technical architecture and platform engineering as one of two Software Architects, reporting directly to the CTO. Drove the overall architectural vision and technical direction of the platform while owning and executing key infrastructure initiatives, actively contributing to core platform components, and guiding system design and evolution across distributed systems to ensure scalability, reliability, and efficiency.
 
-    Act as a senior technical leader within the organization, partnering closely with leadership and engineering to align architecture decisions with business and product goals, while supporting and mentoring engineers through complex technical challenges.
+    Acted as a senior technical leader within the organization, partnering closely with leadership and engineering to align architecture decisions with business and product goals, while supporting and mentoring engineers through complex technical challenges.
 
-    ► Design and help implement a new, scalable, and highly available infrastructure for the future version of the platform, using Terraform, Google Cloud Platform, Cloudflare, etc.
+    ► Designed and heled implement a new, scalable, and highly available infrastructure for the future version of the platform, using Terraform, Google Cloud Platform, Cloudflare, etc.
 
-    ► Architect and implement multiple essential microservices, using NodeJS, FastifyJS, OpenAPI, etc.
+    ► Architected and implemented multiple essential microservices, using NodeJS, FastifyJS, OpenAPI, etc.
 
-    ► Support the development of an internal design system, as well as a new, modern, and scalable front-end architecture, using ReactJS, NextJS, TailwindCSS, etc.
+    ► Supported the development of an internal design system, as well as a new, modern, and scalable front-end architecture, using ReactJS, NextJS, TailwindCSS, etc.
 
-    ► Lead the implementation of a new CI/CD pipeline, using Github Actions, eliminating toil and helping the team ship faster (from 1-2 releases per week to 5+ releases per day).
+    ► Led the implementation of a new CI/CD pipeline, using Github Actions, eliminating toil and helping the team ship faster (from 1-2 releases per week to 5+ releases per day).
 
-    ► Support the data warehousing and analytics initiatives, helping the team build a scalable data pipeline, using BigQuery, StitchData, etc.
+    ► Supported the data warehousing and analytics initiatives, helping the team build a scalable data pipeline, using BigQuery, StitchData, etc.
 
     #paid is a platform that connects brands with creators to produce custom content, amplify their message, and track their campaigns.
 
@@ -72,13 +72,13 @@
 
     Transitioned to the Platform Engineering team, reporting to the VP of Engineering, to contribute directly to the company's Ops Platform as a full-stack engineer. Led development of core platform capabilities while also building and maintaining DevOps-focused open source projects, improving internal tooling and enabling more scalable and efficient engineering operations.
 
-    ► Design and implement open source, as well as custom infrastructure & automation solutions (using Kubernetes, Google Cloud Platform, Amazon Web Services, Terraform, Github Actions, etc.).
+    ► Designed and implemented open source, as well as custom infrastructure & automation solutions (using Kubernetes, Google Cloud Platform, Amazon Web Services, Terraform, Github Actions, etc.).
 
     ► Active contributor to several company projects: API & Slack integrations (golang), front-end (ReactJS, NextJS), CLI (NodeJS), SDKs (Python, bash, Rust, NodeJS), etc.
 
     ► Main contributor to CTO.ai customer-facing documentation, from setup instructions to simple tutorials and SDK documentation.
 
-    ► Design, build and run technical demos for key stakeholders and several industry events, including Amazon ReInvent.
+    ► Designed, built and ran technical demos for key stakeholders and several industry events, including Amazon ReInvent.
 
     CTO.ai is a platform for fast moving development teams who want to build, share, and run developer workflows in CLI and Slack.
 
@@ -102,40 +102,27 @@
     TELUS Digital is the team leading the digital evolution at TELUS, Canada's fastest-growing national telecommunications company.
 
 - company: Telus Digital - My TELUS
-  position: Senior Software Engineer // Tech Lead
-  period: July 2017 - July 2018
+  position: Software Engineer // Tech Lead
+  period: November 2015 - July 2018
   url: https://www.telus.com/en/digital
   description: |
-    Served as Technology Lead for the My TELUS Home Solutions team, reporting to the My TELUS Director. Led a team of four engineers responsible for delivering and maintaining customer-facing APIs and web applications supporting Internet, TV, and Home Phone services within the My TELUS self-serve platform.
+    Joined as Software Engineer and contributed as part of an Agile team building and maintaining My TELUS, a suite of self-serve account management products used by approximately 2 million customers each month. Reported to the My TELUS Director and supported ongoing development and evolution of the platform.
+
+    In July 2017, following a series of promotions, I was appointed Technology Lead for the My TELUS Home Solutions team, reporting directly to the Director. Led a team of four engineers responsible for delivering and maintaining customer-facing APIs and web applications supporting Internet, TV, and Home Phone services within the My TELUS self-serve platform.
 
     Owned the technical direction and execution of Node.js/Express APIs and React/Redux applications, ensuring reliability, performance, and a seamless customer experience. Guided the team through design and implementation decisions, while driving delivery of new features and continuous improvements across the platform.
 
-    ► Work closely with Product Owner, Designers, and external teams to help refine the technical requirements and KPIs for the team, and clarify the acceptance criteria for the features to be built.
+    ► Worked closely with Product Owner, Designers, and external teams to help refine the technical requirements and KPIs for the team, and clarify the acceptance criteria for the features to be built.
 
-    ► Help organize the development team, by running Developer Roundtable meetings, facilitating collaboration and executing code reviews. Mentor new team members.
+    ► Helped organize the development team, by running Developer Roundtable meetings, facilitating collaboration and executing code reviews. Mentor new team members.
 
-    ► Collaborate closely with external teams for researching and negotiating APIs design and interfaces, clarifying interdependencies and impact to feature delivery timelines, identifying common risks and opportunities to consolidate work, etc.
+    ► Collaborated closely with external teams for researching and negotiating APIs design and interfaces, clarifying interdependencies and impact to feature delivery timelines, identifying common risks and opportunities to consolidate work, etc.
 
-    ► Support the team as we pioneered a new technology stack and identify opportunities and gaps, while migrating existing work from a dated PHP monolith to a Javascript-centric stack focused on scalability, microservices, continuous integration and delivery.
+    ► Supported the team as we pioneered a new technology stack and identify opportunities and gaps, while migrating existing work from a dated PHP monolith to a Javascript-centric stack focused on scalability, microservices, continuous integration and delivery.
 
-- company: Telus Digital - My TELUS
-  position: Software Engineer
-  period: November 2015 - June 2017
-  url: https://www.telus.com/en/digital
-  description: |
-    Contributed as part of an Agile team building and maintaining My TELUS, a suite of self-serve account management products used by approximately 2 million customers each month. Reported to the My TELUS Director and supported ongoing development and evolution of the platform.
+    ► 1st place in TELUS Artificial Intelligence Hackathon (2017) with a React Native app using AI (automated license plate recognition, sentiment analysis, etc.) to help improve bike lane infrastructure, safety and parking enforcement. 2nd place in TELUS Digital Website Performance Hackathon (2016).
 
-    Worked on a PHP/CodeIgniter-based application stack, delivering features and improvements that enhanced performance, reliability, and user experience. Collaborated closely with cross-functional teams to support continuous delivery and maintain a high-quality, scalable product.
-
-    ► 1st place in TELUS Artificial Intelligence Hackathon (2017) with a React Native app using AI (automated license plate recognition, sentiment analysis, etc.) to help improve bike lane infrastructure, safety and parking enforcement.
-
-    ► 2nd place in TELUS Digital Website Performance Hackathon (2016).
-
-    ► Strengthened account management security (2-factor authentication), revamped assisted registration flow, built appointment rescheduling flow, etc.
-
-    ► Built a variety of new features and flows for TELUS Home Solutions customers and helped maintain and evolve core TELUS applications and backend APIs.
-
-    ► Core contributor and maintainer of main internal API serving a large number of applications.
+    TELUS Digital is the team leading the digital evolution at TELUS, Canada's fastest-growing national telecommunications company.
 
 - company: Lighthouse Labs
   position: Mentor - Web Development Bootcamp
