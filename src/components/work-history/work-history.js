@@ -1,7 +1,58 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { OutboundLink } from "gatsby-plugin-google-gtag"
 import { arrayOf, shape, WorkHistoryType } from "../../types"
 import { FiPlusCircle, FiMinusCircle } from "react-icons/fi"
+
+const WorkHistoryNav = ({ history }) => {
+  const [activeIndex, setActiveIndex] = useState(0)
+  const [visible, setVisible] = useState(true)
+
+  useEffect(() => {
+    const observers = []
+    const visibleSet = new Set()
+    history.forEach((_, i) => {
+      const el = document.getElementById(`work-entry-${i}`)
+      if (!el) return
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) { visibleSet.add(i); setActiveIndex(i) }
+          else visibleSet.delete(i)
+          setVisible(visibleSet.size > 0)
+        },
+        { threshold: 0.1, rootMargin: "-5% 0px -5% 0px" }
+      )
+      observer.observe(el)
+      observers.push(observer)
+    })
+    return () => observers.forEach(o => o.disconnect())
+  }, [history])
+
+  if (!visible) return null
+
+  return (
+    <nav
+      className="hidden [@media(min-width:1700px)]:flex fixed flex-col gap-4 top-1/2 -translate-y-1/2"
+      style={{ right: "24px" }}
+    >
+      {history.map(({ company, period, volunteer }, i) => (
+        <button
+          key={i}
+          onClick={() => document.getElementById(`work-entry-${i}`)?.scrollIntoView({ behavior: "smooth", block: "start" })}
+          className={`text-left transition-all duration-200 group ${i === activeIndex ? "opacity-100" : "opacity-35 hover:opacity-65"}`}
+        >
+          <div className={`flex items-center gap-1.5 text-xs font-semibold leading-tight ${i === activeIndex ? "text-lead" : "text-front"}`}>
+            <span className={`inline-block w-1.5 h-1.5 rounded-full flex-shrink-0 ${i === activeIndex ? "bg-lead" : "bg-line"}`} />
+            {company}
+            {volunteer && <span className="text-[9px] text-lead opacity-70">vol</span>}
+          </div>
+          {i === activeIndex && (
+            <div className="ml-3 text-[10px] font-mono mt-0.5" style={{ color: "#94a3b8" }}>{period}</div>
+          )}
+        </button>
+      ))}
+    </nav>
+  )
+}
 
 const getDomain = (url) => {
   try { return new URL(url).hostname.replace("www.", "") } catch { return null }
@@ -16,11 +67,14 @@ const WorkHistoryItem = ({ company, period, position, description, url, voluntee
   const [expanded, setExpanded] = useState(false)
 
   const paragraphs = description ? description.trim().split(/\n\n+/) : []
-  const introParagraphs = paragraphs.filter(p => !p.trim().startsWith("►"))
+  const firstBulletIdx = paragraphs.findIndex(p => p.trim().startsWith("►"))
+  const lastBulletIdx = paragraphs.reduce((acc, p, i) => p.trim().startsWith("►") ? i : acc, -1)
+  const introParagraphs = firstBulletIdx === -1 ? paragraphs : paragraphs.slice(0, firstBulletIdx)
   const bulletParagraphs = paragraphs.filter(p => p.trim().startsWith("►"))
+  const outroParagraphs = lastBulletIdx === -1 ? [] : paragraphs.slice(lastBulletIdx + 1)
 
   return (
-    <div className="relative pl-10 pb-10">
+    <div id={`work-entry-${i}`} className="relative pl-10 pb-10">
       {/* Timeline dot */}
       <div
         className={`absolute top-1.5 w-4 h-4 rounded-full border-2 flex-shrink-0 ${
@@ -119,6 +173,9 @@ const WorkHistoryItem = ({ company, period, position, description, url, voluntee
                 </button>
               </>
             )}
+            {outroParagraphs.map((p, idx) => (
+              <p key={idx} className="whitespace-pre-line mt-2">{renderWithBold(p)}</p>
+            ))}
           </div>
         )}
       </div>
@@ -129,6 +186,7 @@ const WorkHistoryItem = ({ company, period, position, description, url, voluntee
 const WorkHistory = ({ history }) => {
   return (
     <>
+      <WorkHistoryNav history={history} />
       <div className="section-heading">
         <h2 id="work" className="font-header font-bold text-front text-xl tracking-wide">
           <span className="font-mono font-normal text-lead text-sm mr-1.5" style={{ opacity: 0.45 }}>//</span>Work History
