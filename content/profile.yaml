@@ -7,13 +7,13 @@
   image: images/profile.jpg
   location: Vancouver, Canada
   remote: true
-  company: Viral Nation
+  company: Socket.dev
   for_hire: true
   focus: AI Platforms, Distributed Systems, Google Cloud, Platform Engineering
   about: |
-    Principal Engineer and Platform Architect specializing in large-scale platform engineering, distributed systems, and AI-powered infrastructure. I lead the architecture and technical direction of an AI-driven creator intelligence platform at Viral Nation, designing scalable event-driven pipelines and AI analysis infrastructure across multi-cloud environments, with a current focus on Google Cloud, while remaining deeply hands-on in the codebase.
+    Principal Engineer and Platform Architect specializing in distributed systems, platform engineering, and AI-powered infrastructure. Most recently, I held a technical leadership role at Socket.dev, owning the technical direction and product roadmap of Socket Firewall Enterprise, a security-scanning registry proxy that intercepts and blocks malicious packages across 20+ ecosystems, used by some of the world's leading technology companies. Prior to that, I led the architecture and technical direction of an AI-driven creator intelligence platform at Viral Nation, designing scalable event-driven pipelines and AI analysis infrastructure across multi-cloud environments.
 
-    My background spans backend and frontend engineering, developer experience tooling, and Kubernetes-based infrastructure at CTO.ai, as well as enterprise platform architecture and large-scale account management systems at TELUS Digital. I focus on building reliable, scalable systems and guiding engineering teams through complex distributed systems challenges.
+    My background includes backend and frontend engineering, developer experience tooling, Kubernetes-based infrastructure at CTO.ai, and enterprise platform architecture at TELUS Digital. I focus on building reliable, scalable systems and guiding engineering teams through complex distributed systems challenges.
 
     I'm driven by curiosity and continuous growth, and I enjoy stepping outside my comfort zone to solve hard problems across cloud platforms, distributed systems, and AI. I care deeply about mentorship and community, having led Women Who Code Vancouver and supported engineers through multiple mentoring initiatives. I aim to combine strong technical execution with thoughtful leadership that helps both systems and people thrive.
   skills:

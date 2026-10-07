@@ -1,11 +1,30 @@
+- company: Socket.dev
+  position: Member of Technical Staff
+  period: May 2026 - October 2026
+  url: https://socket.dev
+  description: |
+    Joined as a Staff Platform Engineer, working across CI/CD, Terraform, and observability for a large TypeScript monorepo and its GCP/GKE infrastructure. Began supporting the Firewall team, initially focused on observability and CI/CD, before expanding into feature work. The Firewall is an nginx/Lua-based registry proxy and Socket's flagship product and primary revenue driver, trusted by companies including Anthropic, Vercel, Figma, Cursor, Replit, IBM, and Mercado Libre.
+
+    Quickly recognized for the impact of that early work, and promoted to Tech Lead of the Firewall team after just two months. Stepped into a team and codebase with significant room to strengthen engineering ownership, processes, reliability, and observability. Took on both technical direction and the product roadmap while building the team's engineering foundation from the ground up. Owned the full product lifecycle, supporting customers who self-hosted the firewall on their own infrastructure, and operating hosted instances for enterprise customers on Socket's infrastructure. Left in October 2026 to take a deliberate career break, having established clear engineering ownership, release processes, and technical direction, leaving the team and the product in a measurably stronger place.
+
+    ► Significantly improved observability across infrastructure and the firewall product itself, and identified and resolved multiple security and correctness issues in the proxy. Added native Prometheus instrumentation, filled gaps in firewall activity and performance metrics, built out dashboards and alerting, and hardened fixes with regression coverage.
+
+    ► Automated the firewall release pipeline end to end: semantic-release versioning, image and platform tarballs built from the released SHA, auto-opened update PRs in downstream deployment repos, and Slack notification. Replaced a manual, error-prone multi-repo process.
+
+    ► Improved Infrastructure as Code workflows and CI/CD across the main monorepo: more reliable plan rendering, faster per-environment CI, a self-service drift remediation workflow, and a refactored PR check strategy that improved developer experience and reduced CI runner costs and wait times. Also identified and helped improve Kubernetes node pool and autoscaling configurations across the platform.
+
+    ► Selected to participate in a company-wide architecture reboot, a week-long session where the entire platform was redesigned from the ground up with scalability and growth in mind. Contributed to the resulting domain architecture, setting the technical foundation to support the company's rapid growth and meet customer demand for flexible deployment topologies, including on-premises and air-gapped environments.
+
+    ► Made extensive contributions across the firewall product and platform engineering stack in a short tenure: essential features, security and correctness fixes, infrastructure improvements, CI/CD, observability, and tooling.
+
+    Socket is a supply chain security company protecting over 1.5 million code repositories, named to Fortune's Cyber 60 and backed by Thrive Capital at a $1B valuation. Its product suite includes the Registry Firewall, a GitHub App for PR-level dependency alerts, a CLI for terminal-level protection, and Socket Reachability for reducing vulnerability noise.
+
 - company: Viral Nation
   position: Principal Engineer & Platform Architect
-  period: February 2024 - present
+  period: February 2024 - April 2026
   url: https://www.viralnation.com
   description: |
-    Lead technical architecture and platform engineering for Viral Nation's AI-powered creator intelligence platform, including distributed ingestion pipelines, large-scale AI content analysis, and cloud infrastructure.
-
-    Own the architecture, infrastructure, and technical direction of the company's 2.0 platform. Serve as the hands-on technical leader across the engineering team, setting architectural direction, building critical platform components, reviewing system designs and implementations, and guiding engineers through complex distributed systems challenges.
+    Led technical architecture and platform engineering for Viral Nation's AI-powered creator intelligence platform, including distributed ingestion pipelines, large-scale AI content analysis, and cloud infrastructure. Owned the architecture, infrastructure, and technical direction of the company's 2.0 platform, serving as the hands-on technical leader across the engineering team, setting architectural direction, building critical platform components, and guiding engineers through complex distributed systems challenges.
 
     During a recent leadership transition, stepped in to maintain technical leadership across the organization, reporting directly to the CEO and working closely with executive leadership to guide platform strategy and architecture decisions.
 
@@ -28,9 +47,7 @@
   period: September 2021 - February 2024
   url: https://hashtagpaid.com
   description: |
-    Lead technical architecture and platform engineering as one of two Software Architects, reporting directly to the CTO. Drive the overall architectural vision and technical direction of the platform while providing hands-on technical leadership across the engineering team.
-
-    Own and execute key infrastructure and architecture initiatives, while actively contributing to the development of core platform components. Guide system design, implementation, and evolution across distributed systems, ensuring scalability, reliability, and efficiency.
+    Led technical architecture and platform engineering as one of two Software Architects, reporting directly to the CTO. Drove the overall architectural vision and technical direction of the platform while owning and executing key infrastructure initiatives, actively contributing to core platform components, and guiding system design and evolution across distributed systems to ensure scalability, reliability, and efficiency.
 
     Act as a senior technical leader within the organization, partnering closely with leadership and engineering to align architecture decisions with business and product goals, while supporting and mentoring engineers through complex technical challenges.
 
@@ -123,7 +140,7 @@
 - company: Lighthouse Labs
   position: Mentor - Web Development Bootcamp
   period: February 2016 - February 2018
-  url: https://www.lighthouselabs.ca/en/web-development-bootcamp
+  url: https://www.linkedin.com/school/lighthouse-labs/home/
   description: |
     Mentored, offered teaching assistance, and evaluated projects for Lighthouse Labs coding bootcamp students: Ruby, Sinatra, Ruby on Rails, NodeJS, ExpressJS, React, etc.
 

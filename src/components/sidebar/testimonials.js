@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { OutboundLink } from "gatsby-plugin-google-gtag"
 import { arrayOf, shape, TestimonialType } from "../../types"
+import { FiPlusCircle, FiMinusCircle } from "react-icons/fi"
 import "./testimonials.css"
 
 const QUOTE_LIMIT = 300
@@ -19,9 +20,10 @@ const Testimonial = ({ company, linkUrl, name, quote }) => {
       {truncatable && (
         <button
           onClick={() => setExpanded(e => !e)}
-          className="text-lead font-semibold not-italic hover:opacity-70 transition-opacity duration-150 mb-2"
+          className="flex items-center gap-1.5 text-lead font-semibold not-italic hover:opacity-70 transition-opacity duration-150 mb-2"
         >
-          {expanded ? "Show less" : "Show more"}
+          {expanded ? <FiMinusCircle size={15} /> : <FiPlusCircle size={15} />}
+          {expanded ? "show less" : "show more"}
         </button>
       )}
       <cite className="flex flex-col not-italic border-t border-line pt-2 mt-2">

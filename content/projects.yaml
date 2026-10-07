@@ -1,3 +1,20 @@
+- name: "Socket Firewall Enterprise"
+  url: https://socket.dev/features/firewall
+  description: "Socket's flagship product and primary revenue driver — a registry proxy that intercepts package downloads across 20+ ecosystems (npm, PyPI, Maven, NuGet, Go, and more) and blocks malicious dependencies before they reach developer machines or CI runners. Led the Firewall team as Tech Lead: owned technical direction, product roadmap, self-hosted customer deployments, and hosted instances for enterprise customers."
+  status: live
+  tags:
+    - nginx
+    - Lua
+    - Prometheus
+    - Grafana
+    - Kubernetes
+    - GCP
+    - Terraform
+    - TypeScript
+    - Supply Chain Security
+  icon: website
+  image: images/socket.jpeg
+
 - name: "Viral Nation Secure"
   url: https://www.viralnation.com/solution/secure
   description: AI-powered brand safety platform — designed and built the distributed ingestion pipelines and content analysis infrastructure leveraging Gemini for GARM safety classification, topic categorization, and brand/logo detection.

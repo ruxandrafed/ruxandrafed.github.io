@@ -5,6 +5,7 @@ export const ProjectType = {
   description: string,
   icon: oneOf(["github", "website"]),
   image: shape({
+    publicURL: string,
     childImageSharp: object.isRequired,
   }),
   name: string.isRequired,
@@ -18,6 +19,7 @@ export const query = graphql`
     description
     icon
     image {
+      publicURL
       childImageSharp {
         gatsbyImageData(width: 640, quality: 85)
       }

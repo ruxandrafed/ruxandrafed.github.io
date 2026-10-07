@@ -29,7 +29,7 @@ const BORDER = "#c8d8cf"
 const styles = StyleSheet.create({
   page: {
     fontFamily: "Lato",
-    fontSize: 9,
+    fontSize: 10,
     color: DARK,
     paddingTop: 32,
     paddingBottom: 32,
@@ -64,11 +64,11 @@ const styles = StyleSheet.create({
     marginTop: 3,
   },
   metaItem: {
-    fontSize: 7.5,
+    fontSize: 8.5,
     color: MUTED,
   },
   metaLink: {
-    fontSize: 7.5,
+    fontSize: 8.5,
     color: GREEN,
     textDecoration: "none",
   },
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   sectionHeading: {
-    fontSize: 6.5,
+    fontSize: 7.5,
     fontFamily: "Lato",
     fontWeight: 700,
     color: GREEN,
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
   },
   // About
   aboutText: {
-    fontSize: 8,
+    fontSize: 9,
     lineHeight: 1.55,
     color: DARK,
   },
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     paddingHorizontal: 6,
     paddingVertical: 2,
-    fontSize: 7,
+    fontSize: 8,
     color: DARK,
   },
   highlightDot: {
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     marginTop: 2.5,
   },
   highlightText: {
-    fontSize: 7.5,
+    fontSize: 8.5,
     color: DARK,
     flex: 1,
   },
@@ -133,29 +133,29 @@ const styles = StyleSheet.create({
     marginBottom: 1,
   },
   workRole: {
-    fontSize: 8.5,
+    fontSize: 9.5,
     fontFamily: "Lato",
     fontWeight: 700,
     color: DARK,
     flex: 1,
   },
   workPeriod: {
-    fontSize: 7,
+    fontSize: 8,
     color: MUTED,
     textAlign: "right",
   },
   workCompany: {
-    fontSize: 7.5,
+    fontSize: 8.5,
     color: GREEN,
     marginBottom: 3,
   },
   workDesc: {
-    fontSize: 7.5,
+    fontSize: 8.5,
     lineHeight: 1.5,
     color: "#374151",
   },
   volunteerBadge: {
-    fontSize: 6.5,
+    fontSize: 7.5,
     color: GREEN,
     borderWidth: 1,
     borderColor: GREEN,
@@ -170,19 +170,19 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   eduName: {
-    fontSize: 8.5,
+    fontSize: 9.5,
     fontFamily: "Lato",
     fontWeight: 700,
     color: DARK,
     marginBottom: 1,
   },
   eduInstitution: {
-    fontSize: 8,
+    fontSize: 9,
     color: GREEN,
     marginBottom: 1,
   },
   eduPeriod: {
-    fontSize: 7.5,
+    fontSize: 8.5,
     color: MUTED,
   },
 })
@@ -190,6 +190,12 @@ const styles = StyleSheet.create({
 const LinkedInIcon = ({ size = 10, color = GREEN }) => (
   <Svg viewBox="0 0 24 24" width={size} height={size}>
     <Path fill={color} d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+  </Svg>
+)
+
+const GlobeIcon = ({ size = 10, color = GREEN }) => (
+  <Svg viewBox="0 0 24 24" width={size} height={size}>
+    <Path fill={color} d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1 17.93V18c0-.55-.45-1-1-1H8v-2c0-.55-.45-1-1-1H5.07C4.4 13.08 4 12.58 4 12c0-.34.06-.67.17-.98L9 16v1c0 1.1.9 2 2 2v.93zm6.9-2.54C17.57 17.8 16.84 18 16 18v-1c0-1.1-.9-2-2-2h-1v-3c0-.55-.45-1-1-1H7v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41C16.93 5.45 19 8.5 19 12c0 1.93-.66 3.7-1.75 5.1-.1-.11-.35-.24-.35-.24z" />
   </Svg>
 )
 
@@ -244,6 +250,10 @@ const ResumePDF = ({ profile, history, educationCertifications, social, testimon
                 <Text>{github.replace("https://", "")}</Text>
               </Link>
             )}
+            <Link src="https://ruxandrafediuc.com" style={[styles.metaLink, { flexDirection: "row", alignItems: "center", gap: 3 }]}>
+              <GlobeIcon size={8} color={GREEN} />
+              <Text>ruxandrafediuc.com</Text>
+            </Link>
           </View>
         </View>
 
